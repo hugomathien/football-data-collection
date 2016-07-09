@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse-pydev version="1.0"?><pydev_project>
+
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>
+<pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
+<path>/${PROJECT_DIR_NAME}/src</path>
+</pydev_pathproperty>
+<pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
+<path>/Library/Python/2.7/site-packages/googleapiclient</path>
+<path>/Library/Python/2.7/site-packages/google_api_python_client-1.5.1.dist-info</path>
+<path>/Library/Python/2.7/site-packages/googleapiclient/discovery_cache</path>
+<path>/Library/Python/2.7/site-packages/googleapiclient/discovery.pyc</path>
+<path>/Library/Python/2.7/site-packages/lxml-3.6.0-py2.7-macosx-10.11-intel.egg/lxml</path>
+<path>/Library/Python/2.7/site-packages/lxml-3.6.0-py2.7-macosx-10.11-intel.egg</path>
+</pydev_pathproperty>
+</pydev_project>
