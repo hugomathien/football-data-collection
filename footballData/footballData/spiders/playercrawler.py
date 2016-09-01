@@ -13,13 +13,14 @@ import pprint
 
 class PlayerSpider(scrapy.Spider):
     name = "player"
-    myGoogleApiKey = "YourApiKeyHere"
-    myGoggleCseId = "YourCseIdHere"
+    myGoogleApiKey = "AIzaSyCq89KQUzX5ShZiqBEmtOjnmCFPGIN8bi4"
+    myGoogleCseId = "007327452172099429540:1bhg1zcqlyw"
     searchEngine = None
-     #'http://www.bing.com/search?q='
-     #'http://uk.search.yahoo.com/search?p='
-    firstPlayerIndex = 1 # start at 1
-    lastPlayerIndex = 12     # start at 1
+    #'Google'
+    #'http://www.bing.com/search?q='
+    #'http://uk.search.yahoo.com/search?p='
+    firstPlayerIndex = 1 # Where to start looping players on the list provided
+    lastPlayerIndex = 8 # Where to end the loop
     searchEngineResultLimit = 3
     parseSoFifaLinkFromFile = False
     birthDayCheck = False
@@ -34,7 +35,7 @@ class PlayerSpider(scrapy.Spider):
     fifaLatestRelease=16
     fifaEarliestRelease = 07
     fifaFirstStatsTimestamp = 154994 #22 February 2007
-    allowedDomains = ["http://sofifa.com",
+    allowed_domains = ["http://sofifa.com",
                        "sofifa.com",
                        "http://www.sofifa.com",
                        "http://sofifa.com/",
@@ -49,7 +50,7 @@ class PlayerSpider(scrapy.Spider):
                        "http://uk.search.yahoo.com/search",
                        "http://uk.search.yahoo.com/",
                        "https://www.googleapis.com/customsearch/"]
-    startUrls = [
+    start_urls = [
     "http://sofifa.com/",
     ]
     
@@ -78,6 +79,7 @@ class PlayerSpider(scrapy.Spider):
                 comma = line.find(',')
                 matchId = line[:comma]
                 line = line[comma+1:]
+                comma = line.find(',')
                 
                 if self.parseSoFifaLinkFromFile:
                     comma = line.find(',')
@@ -86,24 +88,27 @@ class PlayerSpider(scrapy.Spider):
                     playerIndex += 1
                     fifaIdList = re.findall('sofifa.com/player/([0-9]+)',url)
                     fifaId = fifaIdList[0]
-                    url = 'http://sofifa.com/player/' + fifaId
+                    #url = 'http://sofifa.com/player/' + fifaId
                     yield scrapy.Request(url, 
-                                         callback=self.parsePlayer_stats,
+                                         callback=self.parsePlayerFromSoFifa,
                                          dont_filter = True,
-                                         meta={'fifaVersion':self.fifaLatestRelease,'playerIndex':playerIndex,
+                                         meta={'dont_redirect': True,
+                                               'handle_httpstatus_list': [302],
+                                               'fifaVersion':self.fifaLatestRelease,'playerIndex':playerIndex,
                                                'playerUrl':url,'playerName':playerName,'matchId': matchId,
                                                'fifaId':fifaId,'birthDay':0,'birthMonth':0,'birthYear':0,'country':'none'})
                 else:
+                    if comma > -1:
+                        line = line[:comma]
                     playerName = line
                     url = self.baseUrlLiveScore + matchId
                     playerIndex += 1
                     yield scrapy.Request(url, 
-                                         callback=self.parsePlayer_birthday_from_football_livescore,
+                                         callback=self.parsePlayerBirthdayFromLivescore,
                                          meta={'playerName':playerName,'matchId':matchId})
                 
-    
     #Parse the player's birthday from the same website where we got the match squad ('football livescore')
-    def parsePlayer_birthday_from_football_livescore(self,response):
+    def parsePlayerBirthdayFromLivescore(self,response):
         playerName = response.meta['playerName']
         matchId = response.meta['matchId']
         try:
@@ -129,17 +134,16 @@ class PlayerSpider(scrapy.Spider):
             else:
                 playerNameEncoded = urllib.quote(playerName, safe='')
             
-            # Go to sofifa website and search the player OR search on yahoo
-            
+            # Search for the player via a search engine or directly via sofifa.com
             if self.searchEngine is not None:           
                 if self.searchEngine == 'Google':
-                    results = self.googleSearch(playerName + ' site:sofifa.com/player', self.myGoogleApiKey, self.myGoggleCseId, num=1)
+                    results = self.googleSearch(playerName + ' site:sofifa.com/player', self.myGoogleApiKey, self.myGoogleCseId, num=1)
                     firstResult = results[0]
                     googleSearchUrl = firstResult['formattedUrl']
                     fifaIdList = re.findall('sofifa.com/player/([0-9]+)',googleSearchUrl)
                     fifaId = fifaIdList[0]
                     playerUrl = 'http://sofifa.com/player/' + str(fifaId)
-                    yield scrapy.Request(playerUrl, callback=self.parsePlayer_stats,dont_filter = True,
+                    yield scrapy.Request(playerUrl, callback=self.parsePlayerFromSoFifa,dont_filter = True,
                                      meta={'fifaVersion':self.fifaEarliestRelease,'playerIndex':0,
                                            'playerUrl':playerUrl,'playerName':playerName,'matchId': matchId,
                                            'fifaId':fifaId,'birthDay':birthDay,'birthMonth':birthMonth,'birthYear':birthYear,'country':country})
@@ -154,15 +158,12 @@ class PlayerSpider(scrapy.Spider):
                                                'birthMonth':birthMonth,'birthYear':birthYear,'country':country})
             else:
                 playerUrl = self.baseUrlSoFifa + playerNameEncoded
-                playerUrlWithFifaVersion = playerUrl + '&v=' + str(self.fifaLatestRelease)  # Begin with version
+                playerUrlWithFifaVersion = playerUrl + '&v=' + str(self.fifaLatestRelease) 
                 yield scrapy.Request(playerUrlWithFifaVersion, callback=self.parsePlayer,
                                      dont_filter=True,
                                      meta={'fifaVersion':self.fifaLatestRelease,'playerUrl':playerUrl,
                                            'playerName':playerName,'matchId':matchId,'birthDay':birthDay,
-                                           'birthMonth':birthMonth,'birthYear':birthYear,'country':country})
-            #yahoo: https://uk.search.yahoo.com/search?p=Yannick%20Schmid%20site:sofifa.com
-            #yahoo: response.xpath('//a/@href').re_first('sofifa.com/player/([0-9]+)')
-            
+                                           'birthMonth':birthMonth,'birthYear':birthYear,'country':country}) 
         except:
             print 'Failed retrieving: ' + playerName
             filename = self.playerErrorFile
@@ -185,14 +186,15 @@ class PlayerSpider(scrapy.Spider):
         
         idx = 0
         for fifaId in fifaIdList[:self.searchEngineResultLimit]:
-            url = 'http://sofifa.com/player/' + fullHrefLink[idx]
+            url = 'http://sofifa.com/player/' + fullHrefLink[idx]+'?hl=en-US'
             yield scrapy.Request(url, 
-                                 callback=self.parsePlayer_stats,
+                                 callback=self.parsePlayerFromSoFifa,
                                  dont_filter = True,
                                  meta={'fifaVersion':fifaVersion,'playerIndex':playerIndex,
                                        'playerUrl':playerUrl,'playerName':playerName,'matchId': matchId,
                                        'fifaId':fifaId,'birthDay':birthDay,'birthMonth':birthMonth,'birthYear':birthYear,'country':country})
             idx += 1
+            
     # Go to Sofifa website and search the player
     def parsePlayer(self,response):
         matchId = response.meta['matchId']
@@ -222,7 +224,7 @@ class PlayerSpider(scrapy.Spider):
                 fifaVersionStr = str(fifaVersion)
             
             # Fire a new search for an older version of fifa
-            playerUrlWithFifaVersion = playerUrl + '&v=' + fifaVersionStr
+            playerUrlWithFifaVersion = playerUrl + '&v=' + fifaVersionStr + '&hl=en-US'
             yield scrapy.Request(playerUrlWithFifaVersion, 
                                  callback=self.parsePlayer,
                                  dont_filter = True,
@@ -238,11 +240,11 @@ class PlayerSpider(scrapy.Spider):
                 url = 'http://sofifa.com' + str(href)
                 # Look at the player's page
                 yield scrapy.Request(url, 
-                                     callback=self.parsePlayer_stats,
+                                     callback=self.parsePlayerFromSoFifa,
                                      dont_filter = True,
                                      meta={'fifaVersion':fifaVersion,'playerIndex':playerIndex,
                                            'playerUrl':playerUrl,'playerName':playerName,'matchId': matchId,
-                                           'fifaId':fifaId,'birthDay':birthDay,'birthMonth':birthMonth,'birthYear':birthYear})
+                                           'fifaId':fifaId,'birthDay':birthDay,'birthMonth':birthMonth,'birthYear':birthYear,'country':country})
             except:
                 e = sys.exc_info()[0]
                 print 'Error with player: ' + playerName + ' Error type: ' + str(e)
@@ -254,7 +256,7 @@ class PlayerSpider(scrapy.Spider):
             file.write(matchId + ',' + playerName + '\n')
             
     # Read the player page on sofifa and reach the page of the latest stats update
-    def parsePlayer_stats(self, response): 
+    def parsePlayerFromSoFifa(self, response): 
         fifaVersion = response.meta["fifaVersion"]
         playerIndex = response.meta["playerIndex"]
         playerUrl = response.meta["playerUrl"]
@@ -331,7 +333,11 @@ class PlayerSpider(scrapy.Spider):
         if(birthmonthbool and birthdaybool and birthyearbool and countrybool):
             href = response.xpath('//dt/a/@href').extract_first() # Get the latest update page
             url = 'http://sofifa.com' + str(href)
-            yield scrapy.Request(url, callback=self.recordPlayer,dont_filter = True,meta={'playerIndex':playerIndex,'playerUrl':playerUrl,'playerName':playerName,'matchId': matchId,'fifaId':fifaId,'birthdaySoFifa':birthdaySoFifa})
+            yield scrapy.Request(url, callback=self.recordPlayer,
+                                 dont_filter = True,
+                                 meta={'playerIndex':playerIndex,'playerUrl':playerUrl,
+                                       'playerName':playerName,'matchId': matchId,
+                                       'fifaId':fifaId,'birthdaySoFifa':birthdaySoFifa,'country':country})
             #Go to latest player update page
         elif self.searchEngine is not None:
             pass
@@ -340,8 +346,11 @@ class PlayerSpider(scrapy.Spider):
                 fifaVersionStr = '0'+str(fifaVersion)
             else:
                 fifaVersionStr = str(fifaVersion)
-            playerUrlWithVersion = playerUrl + '&v=' + fifaVersionStr
-            yield scrapy.Request(playerUrlWithVersion, callback=self.parsePlayer,dont_filter = True,meta={'fifaVersion':fifaVersion,'playerIndex':playerIndex,'playerUrl':playerUrl,'playerName':playerName,'matchId':matchId,'birthDay':birthDay,'birthMonth':birthMonth,'birthYear':birthYear})
+            playerUrlWithVersion = playerUrl + '&v=' + fifaVersionStr + '&hl=en-US'
+            yield scrapy.Request(playerUrlWithVersion, callback=self.parsePlayer,dont_filter = True,
+                                 meta={'fifaVersion':fifaVersion,'playerIndex':playerIndex,
+                                       'playerUrl':playerUrl,'playerName':playerName,'matchId':matchId,
+                                       'birthDay':birthDay,'birthMonth':birthMonth,'birthYear':birthYear,'country':country})
             
     # Read and dump the player stats includings previous updates
     def recordPlayer(self,response):
@@ -388,7 +397,11 @@ class PlayerSpider(scrapy.Spider):
             currentStats['Defensive Work Rate'] = defensiveWorkRate
             for i,label in enumerate(statsLabels):
                 currentStats[label] = statsValues[i]
+            
     
+            #stats = collections.OrderedDict()
+            #stats[timestamp[0]] = currentStats
+            
             stats = list()
             stats.append(currentStats)
             
