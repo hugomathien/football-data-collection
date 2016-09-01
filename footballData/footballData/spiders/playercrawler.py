@@ -11,8 +11,6 @@ from footballData.items import Player
 from googleapiclient.discovery import build
 import pprint
 
-#http://football-data.mx-api.enetscores.com/page/xhr/player/22986%2F0%2F1%2Fextended/
-
 class ComplexPlayerSpider(scrapy.Spider):
     name = "player"
     my_api_key = "AIzaSyCq89KQUzX5ShZiqBEmtOjnmCFPGIN8bi4"
@@ -103,9 +101,6 @@ class ComplexPlayerSpider(scrapy.Spider):
                                          callback=self.parse_player_birthday_from_football_livescore,
                                          meta={'playerName':playerName,'matchId':matchId})
                 
-                #Get birthday from http://football-data.mx-api.enetscores.com/page/xhr/player/22986%2F0%2F1%2Fextended/
-                #get page for each player on sofifa
-                #check if birthday match then save 
     
     #Parse the player's birthday from the same website where we got the match squad ('football livescore')
     def parse_player_birthday_from_football_livescore(self,response):
@@ -393,11 +388,7 @@ class ComplexPlayerSpider(scrapy.Spider):
             currentStats['Defensive Work Rate'] = defensiveWorkRate
             for i,label in enumerate(statsLabels):
                 currentStats[label] = statsValues[i]
-            
     
-            #stats = collections.OrderedDict()
-            #stats[timestamp[0]] = currentStats
-            
             stats = list()
             stats.append(currentStats)
             
