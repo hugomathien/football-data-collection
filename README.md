@@ -2,8 +2,8 @@
 ## Welcome !
 This is an open source project aiming to provide tools for people to collect and format large set of data about football matches and players. The project is essentially a crawler written in Python and relies on two sources:
 
-- Football matches, end of game statistics and in-game events [http://football-data.mx-api.enetscores.com/](http://football-data.mx-api.enetscores.com/) 
-- Player attributes from EA Sports FIFA video game [http://sofifa.com](http://sofifa.com) 
+- Football matches, end of game statistics and in-game events. You can crawl these with the **MatchCrawler** [http://football-data.mx-api.enetscores.com/](http://football-data.mx-api.enetscores.com/) 
+- Player attributes from EA Sports FIFA video game [http://sofifa.com](http://sofifa.com). You can crawl these with the **PlayerCrawler**
 
 ## Using Scrapy
 
