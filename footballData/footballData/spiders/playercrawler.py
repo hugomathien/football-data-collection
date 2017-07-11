@@ -28,12 +28,12 @@ class PlayerSpider(scrapy.Spider):
     birthYearCheck = False
     countryCheck = False
     parseLastNameOnly = False
-    playerFilePath = '/Users/hugomathien/Documents/workspace/footballData/players_list/1_players_list_all.txt'
-    playerErrorFile = '/Users/hugomathien/Documents/workspace/footballData/players_list/fail.txt'
+    playerFilePath = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\1_players_list_all.txt'
+    playerErrorFile = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\fail.txt'
     baseUrlSoFifa = 'http://sofifa.com/players?keyword='
     baseUrlLiveScore = 'http://football-data.mx-api.enetscores.com/page/xhr/player/'
     fifaLatestRelease=16
-    fifaEarliestRelease = 07
+    fifaEarliestRelease = 7
     fifaFirstStatsTimestamp = 154994 #22 February 2007
     allowed_domains = ["http://sofifa.com",
                        "sofifa.com",
@@ -165,7 +165,7 @@ class PlayerSpider(scrapy.Spider):
                                            'playerName':playerName,'matchId':matchId,'birthDay':birthDay,
                                            'birthMonth':birthMonth,'birthYear':birthYear,'country':country}) 
         except:
-            print 'Failed retrieving: ' + playerName
+            print ('Failed retrieving: ' + playerName)
             filename = self.playerErrorFile
             file = open(filename, 'a')
             file.write(matchId + ',' + playerName + '\n')
@@ -247,10 +247,10 @@ class PlayerSpider(scrapy.Spider):
                                            'fifaId':fifaId,'birthDay':birthDay,'birthMonth':birthMonth,'birthYear':birthYear,'country':country})
             except:
                 e = sys.exc_info()[0]
-                print 'Error with player: ' + playerName + ' Error type: ' + str(e)
+                print ('Error with player: ' + playerName + ' Error type: ' + str(e))
         # If we haven't found the player after browsing all versions of fifa, write out the player's in a file
         else:
-            print 'No player found in Sofifa for: ' + playerName
+            print ('No player found in Sofifa for: ' + playerName)
             filename = self.playerErrorFile
             file = open(filename, 'a')
             file.write(matchId + ',' + playerName + '\n')
@@ -275,7 +275,7 @@ class PlayerSpider(scrapy.Spider):
         #Sofifa birthday
         birthdaySoFifa = response.xpath('//div[@class="tab-content"]//div[@class="description"]/p/text()').re_first('\((.+)\)') #Sep 9, 1991
         if birthdaySoFifa is None:
-            print 'Cannot find birthday for sofifa id ' +str(fifaId)
+            print ('Cannot find birthday for sofifa id ' +str(fifaId))
             soFifaBirthMonth = birthMonth
             soFifaBirthDay = birthDay
             soFifaBirthYear = birthYear
@@ -442,12 +442,12 @@ class PlayerSpider(scrapy.Spider):
             player['stats'] = stats
             yield player
             
-            print 'Exported ' + name + ',' + matchId + ',' + fifaId
-            filename = '/Users/hugomathien/Documents/workspace/footballData/players_list/2_export_list.txt'
+            print ('Exported ' + name + ',' + matchId + ',' + fifaId)
+            filename = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\2_export_list.txt'
             file = open(filename, 'a')
             file.write(name + ',' + matchId + ',' + fifaId + '\n')
         except:
-            print 'No player found in Sofifa for: ' + playerName
+            print ('No player found in Sofifa for: ' + playerName)
             filename = self.playerErrorFile
             file = open(filename, 'a')
             file.write(matchId + ',' + playerName + '\n')

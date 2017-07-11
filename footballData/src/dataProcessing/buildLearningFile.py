@@ -18,11 +18,11 @@ import math
 from operator import truediv
 
 #Player stat files
-players_directory = '/Users/hugomathien/Documents/workspace/footballdata/players/'
+players_directory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players\\'
 #Match with embedded stats 
-match_directory = '/Users/hugomathien/Documents/workspace/footballdata/matches_with_stats'
+match_directory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\matches_with_stats'
 #Where to write the learning file
-output_directory = '/Users/hugomathien/Documents/workspace/footballdata/learning_vector/'
+output_directory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATAlearning_vector\\'
 #Name of the learning file
 ts = time.time()
 runTime = datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
@@ -336,7 +336,7 @@ def computeRealMatchStatistics():
                     teamMatchHistory[awayTeamId] = matchHistoryAway
                     
                     countFileLoop += 1
-                    print 'Computed real match statistics match #' + str(countFileLoop )          
+                    print ('Computed real match statistics match #' + str(countFileLoop ) )
                     if countFileLoop == runRealMatchStatsForXFiles:
                         return
                 except:
@@ -507,18 +507,18 @@ def createLearningVectors():
                             featureIndex += 1
                         
                     output.write(featureVector)
-                    print 'Computed feature vector #' + str(countFileLoop)
+                    print ('Computed feature vector #' + str(countFileLoop))
                     countFileLoop += 1
                 except:
                     e = sys.exc_info()[0]
-                    print 'Error on line {}'.format(sys.exc_info()[-1].tb_lineno)
-                    print 'Error with file: ' + thefile + str(e)
+                    print ('Error on line {}'.format(sys.exc_info()[-1].tb_lineno))
+                    print ('Error with file: ' + thefile + str(e))
                 totalFile = totalFile + 1
                 
     output.close()
-    print 'Processed:', str(countFileLoop)
-    print 'Files:', str(totalFile)
-    print 'Classification count = ' + str(classificationCount)
+    print ('Processed:', str(countFileLoop))
+    print ('Files:', str(totalFile))
+    print ('Classification count = ' + str(classificationCount))
     
 if __name__ == "__main__":
     computeRealMatchStatistics()

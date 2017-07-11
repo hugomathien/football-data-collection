@@ -14,8 +14,19 @@ from scrapy.exporters import XmlItemExporter
 class JsonWriterPipeline(object):
     def __init__(self):
         self.file = open('items.json', 'wb')
+    
     def process_item(self, item, spider): 
-        line = json.dumps(dict(item)) + "\n" 
+        line = json.dumps(dict(item)) + "\n"
+        self.file.write(line)
+        return item
+    
+class JsonWriterPipeline2(object):
+    def open_spider(self, spider):
+        self.file = open('items.jl', 'w')
+    def close_spider(self, spider):
+        self.file.close()
+    def process_item(self, item, spider):
+        line = json.dumps(item) + "\n"
         self.file.write(line)
         return item
 
@@ -32,10 +43,10 @@ class XmlExportPipeline(object):
          return pipeline
 
     def spider_opened(self, spider):
-        #file = open('%s.xml' % spider.name, 'w+b')
-        #self.files[spider] = file
-        #self.exporter = XmlItemExporter(file)
-        #self.exporter.start_exporting()
+        file = open('%s.xml' % spider.name, 'w+b')
+        self.files[spider] = file
+        self.exporter = XmlItemExporter(file)
+        self.exporter.start_exporting()
         pass
     
     def spider_closed(self, spider):
@@ -45,12 +56,10 @@ class XmlExportPipeline(object):
 
     def process_item(self, item, spider):
         if spider.name is 'match':
-            filename = 'matches/' \
-            + item['country'] \
-            + '/' + item['league'] \
-            + '/' + item['season'] \
-            + '/' + str(item['stage']) \
-            +'/%s.xml' % item['matchId']
+            league = item['league'].strip(' \t\n\r')
+            if league == "":
+                league = "Unknown"
+            filename = 'matches/'  + item['country']   + '/' + league + '/' + item['season'] + '/' + str(item['stage']) +'/%s.xml' % item['matchId']
             if not os.path.exists(os.path.dirname(filename)):
                 try:
                     os.makedirs(os.path.dirname(filename))
@@ -95,8 +104,7 @@ class XmlExportPipeline(object):
             self.exporter.export_item(item)
             return item
         elif spider.name is 'player':
-            filename = 'players/' \
-            + item['name']+'_'+item['matchId']+'_'+item['fifaId']+'.xml'
+            filename = 'players/' + item['name']+'_'+item['matchId']+'_'+item['fifaId']+'.xml'
             if not os.path.exists(os.path.dirname(filename)):
                 try:
                     os.makedirs(os.path.dirname(filename))

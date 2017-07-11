@@ -19,13 +19,16 @@ import sys
 # ---- PARAMETERS ----
 # --------------------
 #List of players to work with
-playersListDirectory = '/Users/hugomathien/Documents/workspace/footballdata/players_list/'
+
+
+
+playersListDirectory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\'
 #Matches to work with
-matchDirectory = '/Users/hugomathien/Documents/workspace/footballdata/matches/'
+matchDirectory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\footballData\\matches\\'
 #Player files to work with
-playersFileDirectory = '/Users/hugomathien/Documents/workspace/footballdata/players/'
+playersFileDirectory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players\\'
 #Where to output the match files with embedded statistics
-output = '/Users/hugomathien/Documents/workspace/footballdata/matches_with_stats/'
+output = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\'
 #Where to output the missing players list
 missingPlayerFileName = 'missingPlayers.txt'
 #How many missing players to output, ordered by their importance (i.e: the number of match they prevent to retrieve)

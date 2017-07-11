@@ -21,9 +21,14 @@ NEWSPIDER_MODULE = 'footballData.spiders'
 ROBOTSTXT_OBEY = False
 #DOWNLOAD_DELAY = 0.5
 
+#ITEM_PIPELINES = {
+#    'footballData.pipelines.JsonWriterPipeline': 300,
+#}
+
 ITEM_PIPELINES = {
     'footballData.pipelines.XmlExportPipeline': 300,
 }
+
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32

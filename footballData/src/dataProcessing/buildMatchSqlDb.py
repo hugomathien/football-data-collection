@@ -14,9 +14,9 @@ import string
 from dateutil.parser import parse
 
 #Player files to work with
-matchFileDirectory = '/Users/hugomathien/Documents/workspace/footballdata/matches/'
-db = '/Users/hugomathien/Documents/workspace/footballdata/database/Football (Soccer) Database.sqlite'
-errorFile = '/Users/hugomathien/Documents/workspace/footballdata/match_error.txt'
+matchFileDirectory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA'
+db = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\database.sqlite'
+errorFile = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\match_error.txt'
 startIntFifa = 154994
 startDateFifa = datetime(2007,2,22)
 conn = sqlite3.connect(db)
@@ -35,7 +35,7 @@ def saveMatch(dirname,filename,count):
     
     if xmlstr.find('</items>') > -1:
         xmlstr = xmlstr[:-8]
-        print xmlstr
+        print(xmlstr)
     try:
         parsedXML = ET.fromstring(xmlstr)
     except:
@@ -193,11 +193,11 @@ def saveMatch(dirname,filename,count):
                 pass
             
     conn.commit()
-    print "Saved match #" + str(count)
+    print ("Saved match #" + str(count))
     count += 1
     return count
 
-print "Match lookup started..."
+print ("Match lookup started...")
 
 for (dirname, dirs, files) in os.walk(matchFileDirectory):
     for filename in files:
