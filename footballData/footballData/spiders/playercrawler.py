@@ -1,6 +1,7 @@
 import scrapy
 import urllib
 import sys
+import os
 import collections
 from datetime import datetime
 from datetime import timedelta
@@ -27,8 +28,8 @@ class PlayerSpider(scrapy.Spider):
     birthYearCheck = False
     countryCheck = False
     parseLastNameOnly = False
-    playerFilePath = '..\\..\\..\\players_list\\1_players_list_all.txt'
-    playerErrorFile = '..\\..\\..\\players_list\\fail.txt'
+    playerFilePath =  os.getcwdu() + '..\\..\\DATA\\players_list\\1_players_list_all.txt'
+    playerErrorFile = os.getcwdu() + '..\\..\\DATA\\players_list\\fail.txt'
     baseUrlSoFifa = 'http://sofifa.com/players?keyword='
     baseUrlLiveScore = 'http://football-data.mx-api.enetscores.com/page/xhr/player/'
     fifaLatestRelease=16
