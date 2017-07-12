@@ -10,7 +10,6 @@ import re
 from footballData.items import Player
 from googleapiclient.discovery import build
 import pprint
-
 class PlayerSpider(scrapy.Spider):
     name = "player"
     myGoogleApiKey = "AIzaSyCq89KQUzX5ShZiqBEmtOjnmCFPGIN8bi4"
@@ -28,8 +27,8 @@ class PlayerSpider(scrapy.Spider):
     birthYearCheck = False
     countryCheck = False
     parseLastNameOnly = False
-    playerFilePath = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\1_players_list_all.txt'
-    playerErrorFile = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\fail.txt'
+    playerFilePath = '..\\..\\..\\players_list\\1_players_list_all.txt'
+    playerErrorFile = '..\\..\\..\\players_list\\fail.txt'
     baseUrlSoFifa = 'http://sofifa.com/players?keyword='
     baseUrlLiveScore = 'http://football-data.mx-api.enetscores.com/page/xhr/player/'
     fifaLatestRelease=16
