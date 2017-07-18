@@ -7,12 +7,12 @@ import os
 import xml.etree.ElementTree as ET
 import collections 
 
-playersListDirectory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\'
-matchDirectory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\footballData\\matches\\'
+matchDirectory = os.getcwd() + '..\\..\\..\\footballData\\matches\\'
+playersListDirectory = os.getcwd() + '..\\..\\..\\DATA\\players_list\\'
 count = 0
 playersDict = collections.OrderedDict()
 print "Player extract started..."
-
+os.walk(matchDirectory)
 for (dirname, dirs, files) in os.walk(matchDirectory):
     for filename in files:
         if filename.endswith('.xml'):
@@ -25,8 +25,8 @@ for (dirname, dirs, files) in os.walk(matchDirectory):
                 lstAwayId = parsedXML.findall('awayPlayersId/value') 
                 lstHome = parsedXML.findall('homePlayers/value') 
                 lstAway = parsedXML.findall('awayPlayers/value') 
-                homeTeamFullName = parsedXML.findall('homeTeamFullName')[0].text
-                awayTeamFullName = parsedXML.findall('awayTeamFullName')[0].text
+                homeTeamFullName = parsedXML.findall('homeTeamFullName/value')[0].text
+                awayTeamFullName = parsedXML.findall('awayTeamFullName/value')[0].text
                  
                 for i in range(0,11):
                     playerHomeId = lstHomeId[i].text
@@ -69,11 +69,13 @@ with open(playersListDirectory + "1_players_list_all.txt","w+") as f:
     for player in playersDict:
         name = playersDict[player]['name']
         clubs = playersDict[player]['clubs']
-        string = player + ',' + name
+        club_string = ""
+        player_and_name = player + ',' + name
         for club in clubs:
-            string = string + ',' + club
-        string = string + '\n'
-        f.write(string)
+            club_string = club_string + ',' + club
+        player_with_club = player_and_name + club_string + '\n'
+        player_with_club = player_with_club.encode('utf-8')
+        f.write(player_with_club)
 
 print 'Files:', count
 print 'Players:', len(playersDict)

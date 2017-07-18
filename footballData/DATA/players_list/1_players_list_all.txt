@@ -1,0 +1,702 @@
+37656,Ruben Martinez,Levante
+396526,Ruben Blanco,Celta Vigo
+287691,Ivan Lopez,Levante
+183462,Hugo Mallo,Celta Vigo
+184091,Angel Trujillo,Levante
+172948,Gustavo Cabral,Celta Vigo
+105351,Simao,Levante
+360918,Andreu Fontas,Celta Vigo
+37484,Juanfran Garcia,Levante
+18673,Johny,Celta Vigo
+280485,Tono,Levante
+246177,Augusto Fernandez,Celta Vigo
+513086,Jose Mari,Levante,Alaves
+74169,Pablo Hernandez,Celta Vigo
+38469,Verza,Levante
+72623,Daniel Wass,Celta Vigo,Atletico Madrid
+364244,Victor Camarasa,Levante
+174472,Fabian Orellana,Celta Vigo
+476769,Nabil Ghilas,Levante,Alaves
+213486,Iago Aspas,Celta Vigo
+301809,Deyverson,Levante
+49836,Nolito,Celta Vigo,Valencia
+177126,Jan Oblak,Atletico Madrid
+477498,Raul Lizoain,Las Palmas
+56678,Juanfran,Atletico Madrid
+358339,David Simon,Las Palmas
+41167,Diego Godin,Atletico Madrid
+11736,Aythami Artiles,Las Palmas
+38424,Filipe Luis,Atletico Madrid
+74989,Antolin Alcaraz,Las Palmas
+474589,Jose Gimenez,Atletico Madrid
+291635,Pedro Bigas,Las Palmas
+30871,Oliver Torres,Atletico Madrid
+243781,Dani Castellano,Las Palmas
+184533,Gabi,Atletico Madrid
+292262,Javi Castellano,Las Palmas
+316771,Tiago,Atletico Madrid
+128721,Hernan,Las Palmas
+33635,Koke,Atletico Madrid
+213729,Roque Mesa,Las Palmas
+184138,Antoine Griezmann,Atletico Madrid
+183497,Jonathan Viera,Las Palmas
+51360,Jackson Martinez,Atletico Madrid
+190669,Sergio Ezequiel Araujo,Las Palmas
+25563,Carlos Kameni,Malaga
+97498,Beto,Sevilla
+477471,Roberto Rosales,Malaga,Deportivo La Coruna
+41092,Coke,Sevilla
+18520,Marcos Angeleri,Malaga
+77741,Adil Rami,Sevilla
+104382,Raul Albentosa,Malaga
+154232,Grzegorz Krychowiak,Sevilla
+38842,Arthur Boka,Malaga
+151063,Benoit Tremoulinas,Sevilla
+432591,Sergi Darder,Malaga
+111237,Vicente Iborra,Sevilla
+46120,Fernando Damian Tissone,Malaga
+38821,Steven Nzonzi,Sevilla,Espanyol
+39198,Nordin Amrabat,Malaga
+109621,Jose Antonio Reyes,Sevilla
+75445,Duje Cop,Malaga,Sporting Gijon
+108568,Ever Banega,Sevilla
+282472,Ricardo Horta,Malaga
+213805,Vitolo,Sevilla
+213653,Charles,Malaga
+26392,Kevin Gameiro,Sevilla,Atletico Madrid
+33764,Gorka Iraizoz Moreno,Athletic Bilbao
+37421,Claudio Bravo,Barcelona
+38540,Oscar de Marcos,Athletic Bilbao
+33988,Daniel Alves,Barcelona
+411617,Gorka Elustondo,Athletic Bilbao
+38818,Javier Mascherano,Barcelona
+181297,Aymeric Laporte,Athletic Bilbao
+150739,Thomas Vermaelen,Barcelona
+154938,Mikel Balenziaga,Athletic Bilbao
+26005,Jordi Alba,Barcelona
+573793,Mikel Rico,Athletic Bilbao
+25773,Ivan Rakitic,Barcelona
+45749,Benat Etxebarria,Athletic Bilbao
+154257,Sergio Busquets,Barcelona
+96619,Markel Susaeta,Athletic Bilbao
+30955,Andres Iniesta,Barcelona
+43375,Javier Eraso,Athletic Bilbao
+40636,Lionel Messi,Barcelona
+639150,Sabin Merino,Athletic Bilbao
+30981,Luis Suarez,Barcelona
+33028,Aritz Aduriz,Athletic Bilbao
+242469,Rafinha,Barcelona
+104986,Andres Fernandez,Granada,Villarreal
+449484,Xabi Irureta,Eibar
+2752,Dimitri Foulquier,Granada
+33856,Ander Capa,Eibar
+46407,Jean-Sylvain Babin,Granada,Sporting Gijon
+449492,Ivan Ramis,Eibar
+477604,Diego Mainz,Granada
+113311,Mauro Dos Santos,Eibar
+261609,Salva Ruiz,Granada
+202553,Antonio Luna,Eibar
+489245,Javi Moreno Marquez,Granada,Leganes
+434404,Adrian Gonzalez,Eibar
+80492,Ruben Perez,Granada
+433311,Dani Garcia,Eibar
+43372,Ruben Rochina,Granada,Rayo Vallecano
+156097,Gonzalo Escalante,Eibar,Malaga
+2805,Piti,Granada,Leganes
+213712,Keko,Eibar
+213711,Robert Ibanez,Granada
+40501,Saul Berjon,Eibar
+161291,Youssef El Arabi,Granada
+193224,Sergi Enrich,Eibar
+532942,Pau Sabata,Espanyol
+109222,Vicente Guaita,Getafe
+358138,Anaitz Arbilla,Espanyol
+37479,Damian Suarez,Getafe,Alaves
+257855,Alvaro Gonzalez,Espanyol,Villarreal
+188540,Santiago Vergini,Getafe
+213814,Antonio Raillo,Espanyol,Eibar
+518240,Alexis,Getafe,Alaves
+640231,Ruben Duarte,Espanyol
+195335,Carlos Vigaray,Getafe
+107930,Javi Lopez,Espanyol
+32999,Mehdi Lacen,Getafe
+52004,Victor Sanchez Mata,Espanyol
+240054,Juan Rodriguez,Getafe,Sevilla
+102879,Paco Montanes,Espanyol
+75192,Pedro Leon,Getafe,Eibar
+37654,Salva Sevilla,Espanyol
+369800,Victor Romero Rodriguez,Getafe,Sporting Gijon
+185123,Victor Alvarez,Espanyol
+37449,Pablo Sarabia,Getafe
+41622,Felipe Caicedo,Espanyol
+213489,Alvaro Vazquez,Getafe,Espanyol
+40648,Antonio Adan,Real Betis
+210164,Alphonse Areola,Villarreal
+268273,Cristiano Piccini,Real Betis
+183185,Mario Gaspar,Villarreal
+39719,Bruno Gonzalez,Real Betis
+182921,Eric Bailly,Villarreal
+239964,German Pezzela,Real Betis
+160844,Victor Ruiz,Villarreal
+186991,Juan Vargas,Real Betis
+574200,Jaume Costa,Villarreal
+154256,Alvaro Cejudo,Real Betis,Sporting Gijon
+193978,Matias Nahuel Leiva,Villarreal
+183350,Xavier Torres,Real Betis
+562062,Tomas Pina,Villarreal
+111801,Alfred N'Diaye,Real Betis,Villarreal
+42479,Bruno Soriano,Villarreal
+193226,Francisco Portillo,Real Betis
+517941,Samuel Castillejo,Villarreal
+2983,Jorge Molina,Real Betis
+37506,Leo Baptistao,Villarreal
+96652,Ruben Castro,Real Betis
+358127,Roberto Soldado,Villarreal,Espanyol
+33630,Ivan Cuellar,Sporting Gijon
+51949,Keylor Navas,Real Madrid
+384374,Lora,Sporting Gijon,Malaga
+230982,Danilo,Real Madrid
+150764,Luis Hernandez,Sporting Gijon
+30962,Sergio Ramos,Real Madrid
+150480,Bernardo,Sporting Gijon
+28467,Raphael Varane,Real Madrid
+239965,Isma Lopez,Sporting Gijon
+208077,Marcelo,Real Madrid
+202639,Carlos Carmona,Sporting Gijon
+30893,Luka Modric,Real Madrid
+242477,Nacho Cases,Sporting Gijon
+95078,Toni Kroos,Real Madrid
+17299,Sergio Alvarez,Sporting Gijon
+31921,Gareth Bale,Real Madrid
+541557,Jony,Sporting Gijon,Malaga
+31097,Isco,Real Madrid
+206301,Guerrero,Sporting Gijon,Leganes
+191315,Cristiano Ronaldo,Real Madrid
+474448,Antonio Sanabria,Sporting Gijon,Real Betis
+281085,Jese Rodriguez,Real Madrid,Las Palmas
+32678,German Dario Lux,Deportivo La Coruna
+245555,Geronimo Rulli,Real Sociedad
+33848,Laure,Deportivo La Coruna
+282676,Joseba Zaldua,Real Sociedad
+121872,Alberto Lopo,Deportivo La Coruna
+485141,Diego Reyes,Real Sociedad
+111190,Sidnei,Deportivo La Coruna
+201111,Inigo Martinez,Real Sociedad,Espanyol
+37451,Fernando Navarro,Deportivo La Coruna
+47565,Alberto De la Bella,Real Sociedad
+40668,Pedro Mosquera,Deportivo La Coruna
+102622,Markel Bergara,Real Sociedad
+37480,Celso Borges,Deportivo La Coruna
+361322,Ruben Pardo,Real Sociedad
+103905,Juanfran,Deportivo La Coruna
+33973,Xabier Prieto,Real Sociedad
+279173,Faycal Fajr,Deportivo La Coruna
+75342,Carlos Vela,Real Sociedad
+51953,Cani,Deportivo La Coruna
+282678,Bruma,Real Sociedad,Real Betis
+194660,Lucas Perez,Deportivo La Coruna
+128732,Jonathas,Real Sociedad
+37579,Tono,Rayo Vallecano
+185644,Mathew Ryan,Valencia
+183449,Tito,Rayo Vallecano,Granada,Leganes
+361757,Joao Cancelo,Valencia
+406257,Ze Castro,Rayo Vallecano
+318526,Shkodran Mustafi,Valencia,Granada
+34104,Diego Llorente,Rayo Vallecano
+184999,Ruben Vezo,Valencia
+420568,Nacho Martinez,Rayo Vallecano,Malaga
+173427,Lucas Orban,Valencia,Levante
+186121,Patrick Ebert,Rayo Vallecano
+570432,Danilo,Valencia
+75004,Jose Raul Baena,Rayo Vallecano
+74747,Javi Fuego,Valencia,Espanyol
+36130,Roberto Trashorras,Rayo Vallecano
+324578,Rodrigo De Paul,Valencia
+210065,Bebé,Rayo Vallecano,Eibar
+75310,Santi Mina,Valencia
+150770,Manucho,Rayo Vallecano
+46384,Alvaro Negredo,Valencia,Espanyol
+111975,Miku,Rayo Vallecano
+428947,Pablo Piatti,Valencia
+33958,Asier Riesgo,Eibar
+280638,Mauro Dos Santos,Eibar,Alaves
+40220,Diego Llorente,Rayo Vallecano
+246218,David Junca,Eibar
+187360,Simone Verdi,Eibar
+427893,Patrick Ebert,Rayo Vallecano,Celta Vigo
+200917,Borja Baston,Eibar
+46808,Javi Guerra,Rayo Vallecano
+37482,Gerard Pique,Barcelona
+46391,Santiago Vergini,Getafe
+26403,Jordi Alba,Barcelona
+212472,Sergio Busquets,Barcelona
+19533,Luis Suarez,Barcelona
+183548,Stefan Scepovic,Getafe
+522579,Neymar,Barcelona,Valencia
+300532,Sergio Rico,Sevilla
+150869,Adil Rami,Sevilla
+189101,Jonathan dos Santos,Villarreal
+268282,Bruno Soriano,Villarreal
+39215,Vicente Iborra,Sevilla
+282281,Manuel Trigueros,Villarreal,Barcelona
+103450,Yevheniy Konoplyanka,Sevilla
+201939,Roberto Soldado,Villarreal
+40672,Francisco Casilla,Real Madrid
+71498,Javi Varas,Las Palmas
+213499,Nacho Fernandez,Real Madrid
+33963,Javier Garrido,Las Palmas
+213916,Hernan,Las Palmas
+208494,Casemiro,Real Madrid
+46621,Nabil El Zhar,Las Palmas,Leganes
+179083,Willian Jose,Las Palmas,Real Sociedad
+246201,Sergio Alvarez,Celta Vigo
+33960,Joseba Zaldua,Real Sociedad
+80295,Inigo Martinez,Real Sociedad
+358148,Johny,Celta Vigo
+205278,Asier Illarramendi,Real Sociedad
+425985,Pablo Hernandez,Celta Vigo
+99047,Carlos Vela,Real Sociedad
+46289,Imanol Agirretxe,Real Sociedad
+489240,Jaume,Valencia
+30276,David Navarro,Levante
+361710,Aderlan Santos,Valencia
+391058,Jose Gaya,Valencia
+37597,Juanfran Garcia,Levante
+93480,Sofiane Feghouli,Valencia
+40148,Andre Gomes,Valencia
+466672,Jose Luis Morales,Levante
+384413,Victor Camarasa,Levante
+361770,Pablo Piatti,Valencia,Barcelona
+477472,Ruben Garcia,Levante
+241825,Francisco Alcacer,Valencia,Barcelona
+303088,Roger,Levante
+474680,Pedro Mosquera,Deportivo La Coruna,Valencia
+354467,Yannick Ferreira-Carrasco,Atletico Madrid
+33852,Jonas Gutierrez,Deportivo La Coruna
+41707,Raul Albentosa,Malaga
+112758,Ignacio Camacho,Malaga
+359191,Omar Mascarell,Sporting Gijon
+215927,Jose Recio,Malaga
+541558,Jony,Sporting Gijon
+238841,Adnane Tighadouini,Malaga
+261599,Pablo Fornals,Malaga
+395154,Pablo Perez,Sporting Gijon,Las Palmas
+683450,Juan Carlos,Malaga
+38064,Cristiano Piccini,Real Betis
+159881,Aymeric Laporte,Athletic Bilbao
+37824,Joaquin,Real Betis
+182224,Mikel San Jose,Athletic Bilbao
+531629,Daniel Ceballos,Real Betis
+604105,Inaki Williams,Athletic Bilbao
+33871,Raul Garcia,Athletic Bilbao
+116750,Ricky van Wolfswinkel,Real Betis
+314947,Alvaro Gonzalez,Espanyol
+108572,Dimitri Foulquier,Granada
+239350,Jean-Sylvain Babin,Granada
+193930,Roberto Correa,Espanyol
+46836,Jose Canas,Espanyol
+161651,Hernan Perez,Espanyol
+170667,Javi Moreno Marquez,Granada
+88986,Marco Asensio,Espanyol
+498033,Victor Alvarez,Espanyol,Real Madrid
+534484,Piti,Granada
+394825,Alexis,Getafe
+38573,Juan Rodriguez,Getafe
+369859,Gonzalo Escalante,Eibar
+34952,Jaume Costa,Villarreal
+25921,Danilo,Real Madrid
+181984,Marco Andreolli,Sevilla
+122047,Benoit Tremoulinas,Sevilla
+161660,Ciro Immobile,Sevilla
+102620,Carlos Martinez,Real Sociedad
+484906,Tana,Las Palmas
+56686,Gonzalo Castro,Real Sociedad,Malaga
+35324,Jose Gaya,Valencia
+75307,Joao Cancelo,Valencia
+432463,Daniel Parejo,Valencia
+191906,Sidnei,Deportivo La Coruna
+282473,Tono,Levante,Alaves
+282689,Luis Hernandez,Sporting Gijon
+178955,Stefan Savic,Atletico Madrid
+27461,Heiko Westermann,Real Betis
+445907,Varela,Real Betis
+33128,Petros,Real Betis,Osasuna
+37450,Juan Carlos,Malaga
+30840,Rafael van der Vaart,Real Betis
+535600,Alvaro Cejudo,Real Betis
+33024,Xabier Etxeita,Athletic Bilbao
+190452,Alvaro Gonzalez,Espanyol,Osasuna
+150080,Cristiano Biraghi,Granada
+482331,Bebé,Rayo Vallecano
+2802,Pablo Hernandez,Rayo Vallecano
+246422,Juan Carlos,Rayo Vallecano
+112205,Cala,Getafe
+2768,Jose Dorado,Rayo Vallecano
+242151,Borja Ekiza,Eibar
+164684,Toni Kroos,Real Madrid
+26166,Karim Benzema,Real Madrid
+607148,Yuri Berchiche,Real Sociedad
+150649,Sergio Canales,Real Sociedad
+192770,Jose Gaya,Valencia
+37510,Roque Mesa,Las Palmas
+151079,Cani,Deportivo La Coruna
+115519,Luisinho,Deportivo La Coruna
+495107,Jonathan Rodriguez,Deportivo La Coruna
+74752,Roberto Canella,Sporting Gijon
+317567,Hugo Fraile Martinez,Sporting Gijon
+33843,Filipe Luis,Atletico Madrid
+30853,Antoine Griezmann,Atletico Madrid
+282713,Fran Rico,Granada,Eibar
+495841,Adalberto Penaranda,Granada,Malaga
+571685,Adrian Marin,Villarreal,Leganes
+474672,Samuel Garcia,Villarreal,Leganes
+282674,Nacho Fernandez,Real Madrid
+97762,Dani Garcia,Eibar
+239219,Toni Kroos,Real Madrid
+41156,Ruben Pardo,Real Sociedad
+209950,Adil Rami,Sevilla
+33030,Fernando Llorente,Sevilla
+213694,Sergi Gomez,Celta Vigo
+466132,Augusto Fernandez,Celta Vigo
+580704,Dani Ndi,Sporting Gijon
+130298,John Guidetti,Celta Vigo
+165706,Pape Kouli Diop,Espanyol
+309334,Koke,Atletico Madrid
+294003,Antoine Griezmann,Atletico Madrid,Sevilla
+41470,Miguel Torres,Malaga
+533227,Isaac Success,Granada
+150731,Antonio Amaya,Rayo Vallecano
+616544,Mikel Balenziaga,Athletic Bilbao
+150323,Benat Etxebarria,Athletic Bilbao
+192064,Yoel Rodriguez,Rayo Vallecano,Eibar
+359194,Diego Llorente,Rayo Vallecano
+359193,Nacho Fernandez,Real Madrid
+389202,Angel Lafita,Getafe
+37653,Lucas Perez,Deportivo La Coruna,Osasuna
+580589,Isma Lopez,Sporting Gijon
+196126,Daniel Gimenez,Real Betis
+79742,Juan Carlos,Malaga
+113672,Mateo Pablo Musacchio,Villarreal
+477615,Sandro Ramirez,Barcelona,Malaga
+574654,Carlos Castro,Sporting Gijon
+172147,Cristiano Piccini,Real Betis
+246438,Gerard Moreno,Espanyol
+170341,Eneko Boveda,Athletic Bilbao
+256727,Alhassane Bangoura,Rayo Vallecano
+79737,Jaume Costa,Villarreal
+198566,Lucas Perez,Deportivo La Coruna
+298327,Lora,Sporting Gijon
+33992,Gerard Pique,Barcelona
+189192,Jeremy Mathieu,Barcelona
+39792,Arda Turan,Barcelona
+75001,Roque Mesa,Las Palmas
+638029,Fabian Orellana,Celta Vigo
+213504,Diego Marino,Levante,Sporting Gijon
+150632,Nabil Ghilas,Levante
+543020,Jorge Mere,Sporting Gijon
+150735,Manuel Lillo Castellano,Eibar,Sporting Gijon
+574656,Alen Halilovic,Sporting Gijon
+306407,Vicente Iborra,Sevilla
+362194,Nicolas Lopez,Granada
+477493,Javi Moreno Marquez,Granada,Alaves
+70949,Juanfran Garcia,Levante
+282467,Daniel Ceballos,Real Betis
+452243,Joan Jordan,Espanyol,Sporting Gijon
+574662,Marco Asensio,Espanyol
+320686,Diego Mainz,Granada
+74991,Aythami Artiles,Las Palmas
+50622,Vicente Gomez,Las Palmas
+573463,Juanpi,Malaga
+432950,Angel Correa,Atletico Madrid
+193869,Francisco Alcacer,Valencia
+40940,Thimothee Kolodziejczak,Sevilla
+30646,Duje Cop,Malaga
+346379,Jose Luis Morales,Levante
+213470,Ibai Gomez,Athletic Bilbao,Alaves
+523390,Emiliano Buendia,Getafe,Valencia
+610184,Victor Romero Rodriguez,Getafe
+179772,Iker Muniain,Athletic Bilbao
+67334,Cala,Getafe
+102699,Petros,Real Betis
+605654,Foued Kadir,Real Betis
+528873,Carles Planas,Celta Vigo
+496054,Dejan Drazic,Celta Vigo
+574905,Theo Bongonda,Celta Vigo
+71602,Claudio Beauvue,Celta Vigo
+150872,Juan Carlos Valeron,Las Palmas,Granada
+33761,Wakaso Mubarak,Las Palmas
+261787,Iago Herrerin,Athletic Bilbao,Leganes
+409005,Inigo Martinez,Real Sociedad,Granada
+291131,Andre Gomes,Valencia
+105925,Wakaso Mubarak,Las Palmas
+38699,Giuseppe Rossi,Levante,Celta Vigo
+262592,Victor Romero Rodriguez,Getafe,Sporting Gijon
+80265,Giedrius Arlauskis,Espanyol
+629579,Mamadou Sylla,Espanyol
+678234,Mikel Oyarzabal,Real Sociedad
+198217,Jorge Mere,Sporting Gijon
+96651,Manu Fernandez,Deportivo La Coruna
+95509,Adil Rami,Sevilla
+504606,Saul Niguez,Atletico Madrid
+434325,Yannick Ferreira-Carrasco,Atletico Madrid
+244563,Adrian Gonzalez,Eibar
+242887,Jose Recio,Malaga
+30914,Dimitri Foulquier,Granada
+41294,David Barral,Granada
+40001,Javi Lopez,Espanyol
+213688,Martin Montoya,Real Betis,Valencia
+40139,Shkodran Mustafi,Valencia,Atletico Madrid
+722766,Charly Musonda,Real Betis
+359197,Andre Gomes,Valencia,Villarreal
+33959,Ander Capa,Eibar
+96613,Diego Alves,Valencia
+209922,Victor Alvarez,Espanyol
+49847,Daniel Wass,Celta Vigo
+298940,Josip Radosevic,Eibar
+40721,Tono,Levante,Leganes
+37441,Jose Luis Morales,Levante
+45744,Leo Baptistao,Villarreal
+522203,Weligton,Malaga
+352887,Rene Krhin,Granada
+49866,Roberto Trashorras,Rayo Vallecano
+38148,Jose Angel Crespo,Rayo Vallecano
+100033,Alvaro Pereira,Getafe
+635772,Cristiano Ronaldo,Real Madrid
+39584,Stipe Pletikosa,Deportivo La Coruna
+242783,Diogo Figueiras,Sevilla
+643570,David Garcia,Las Palmas
+638105,Nabil El Zhar,Las Palmas
+412762,Gabi,Atletico Madrid,Sevilla
+710807,Jose Raul Baena,Rayo Vallecano
+209362,Piti,Rayo Vallecano
+37442,Alvaro Arbeloa,Real Madrid
+33756,Laure,Deportivo La Coruna
+31047,Guillermo Ochoa,Malaga,Granada
+38044,Charles,Malaga
+163205,Grzegorz Krychowiak,Sevilla,Deportivo La Coruna
+184554,Marc-Andre ter Stegen,Barcelona
+441441,Ager Aketxe,Athletic Bilbao
+96623,Sergio Asenjo,Villarreal
+202210,Leandro Damiao,Real Betis
+174030,Jesus Fernandez,Granada
+213702,Isaac Cuenca,Granada
+638089,Filipe Luis,Atletico Madrid
+39142,Henok Goitom,Getafe
+561433,Fernando Llorente,Sevilla
+25462,Victor Casadesus,Levante
+629594,Denis Suarez,Villarreal
+102623,Borja Viguera,Athletic Bilbao,Sporting Gijon
+101590,Oier Olazabal,Real Sociedad
+195305,Javier Mascherano,Barcelona
+690308,Damian Suarez,Getafe
+177475,Keko,Eibar
+675088,Samuel Castillejo,Villarreal
+674492,Jose Matos,Sevilla
+358142,Vicente Iborra,Sevilla
+640725,Curro Sanchez,Sevilla
+38467,Mariano Damian Barbosa,Villarreal
+38385,Sergio Escudero,Sevilla
+636565,Jon Bautista,Real Sociedad
+674486,Diego Gonzalez,Sevilla
+684723,David Carmona,Sevilla
+108809,Kike Sola,Athletic Bilbao
+102394,Alberto Garcia,Sporting Gijon
+58499,Mario Gaspar,Villarreal
+189178,Juan Dominguez Lamas,Deportivo La Coruna
+477595,Javier Noblejas,Getafe
+114746,Vincenzo Rennella,Real Betis
+517300,Mikel Oyarzabal,Real Sociedad
+191873,Juanmi,Real Sociedad
+213501,Marco Asensio,Real Madrid
+169755,Nauzet Perez,Osasuna
+93488,Roberto Rosales,Malaga
+38534,Javier Flano,Osasuna
+33865,David Garcia,Osasuna
+577625,Miguel Flano,Osasuna
+451941,Unai Garcia,Osasuna
+72542,Miguel Angel de las Cuevas,Osasuna
+432948,Fausto,Osasuna
+38886,Oier,Osasuna
+574623,Kenan Kodro,Osasuna
+241059,Fernando Pacheco,Alaves
+195698,Kiko,Alaves
+175311,Zouhair Feddal,Alaves
+207474,Nenad Krsticic,Alaves
+150630,Daniel Torres,Alaves
+121044,Edgar Antonio Mendez,Alaves
+150832,Gaizka Toquero,Alaves
+37604,Fernando Amorebieta,Sporting Gijon
+643229,Isaac Cuenca,Granada
+570680,Jeremie Boga,Granada
+181995,Samuel Castillejo,Villarreal
+46554,Nicola Sansone,Villarreal
+493216,Ezequiel Ponce,Granada
+195199,Alexandre Pato,Villarreal
+303484,Ander Capa,Eibar
+671945,Cristian Rivera,Eibar
+358289,Pedro Mosquera,Deportivo La Coruna
+267863,Carles Gil,Deportivo La Coruna
+43294,Faycal Fajr,Deportivo La Coruna
+183353,Kike,Eibar
+37623,Roberto,Espanyol
+113668,Gabriel Mercado,Sevilla
+115847,Franco Vazquez,Sevilla
+270774,Vitolo,Sevilla
+210184,Luciano Dario Vietto,Sevilla
+150316,David Garcia,Las Palmas
+27335,Vicente Gomez,Las Palmas
+206242,Marko Livaja,Las Palmas
+210683,Bruno Gonzalez,Real Betis
+210117,Jordi Alba,Barcelona
+188533,Jonas Martin,Real Betis
+210142,Petros,Real Betis
+266519,Felipe Gutierrez,Real Betis
+553304,Serantes,Leganes
+571623,Victor Diaz,Leganes
+208096,Martin Mantovani,Leganes
+113318,Johny,Celta Vigo
+488718,Diego Rico,Leganes
+112207,Adrian Marin,Leganes
+573791,Gabriel,Leganes
+304673,Theo Bongonda,Celta Vigo
+394585,Alberto,Leganes
+571615,David Timor Copovi,Leganes
+243163,Unai Lopez,Leganes
+724371,Zouhair Feddal,Alaves
+68813,Przemyslaw Tyton,Deportivo La Coruna
+156551,Martin Montoya,Valencia
+37581,Aymen Abdennour,Valencia
+185770,Celso Borges,Deportivo La Coruna
+37631,Enzo Perez,Valencia
+677249,Bruno Gama,Deportivo La Coruna
+40945,Nani,Valencia
+599425,Florin Andone,Deportivo La Coruna
+26181,Samir Nasri,Sevilla
+423663,Bakary Kone,Malaga
+164031,Yannick Ferreira-Carrasco,Atletico Madrid
+410656,Diego Rico,Leganes
+173965,Yuri Berchiche,Real Sociedad
+358654,David Timor Copovi,Leganes
+75376,Gabriel,Leganes
+574629,Unai Garcia,Osasuna
+300623,Roberto Torres,Osasuna
+482512,Sergio Leon,Osasuna
+41466,Diego Lopez,Espanyol
+638639,Rafa Navarro,Real Betis
+264293,Aissa Mandi,Real Betis
+215584,David Lopez,Espanyol
+684981,Aaron Caricol,Espanyol
+640220,Pablo Piatti,Espanyol
+184521,Antonio Luna,Eibar
+210111,Javier Mascherano,Barcelona
+202341,Ruben Vezo,Granada
+154228,Gabriel Silva,Granada
+148335,Uche Henry Agbo,Granada
+575779,Andreas Pereira,Granada
+107717,Artem Kravets,Granada
+289278,Gabriel,Leganes
+602563,Daniel Torres,Alaves
+288349,Christian Santos,Alaves
+317564,Kepa Arrizabalaga,Athletic Bilbao
+639450,Mikel Balenziaga,Athletic Bilbao
+37411,Hernan Perez,Espanyol
+616545,Inaki Williams,Athletic Bilbao,Sporting Gijon
+479217,Facundo Sebastian Roncaglia,Celta Vigo
+30915,Ryan Babel,Deportivo La Coruna
+127400,Luciano Dario Vietto,Sevilla
+696449,Juan Carlos,Malaga
+172116,Douglas,Sporting Gijon
+641026,Tano Bonnin,Osasuna
+399130,Luciano Neves,Leganes
+589897,Cristian Espinoza,Alaves
+42594,Daniel Ceballos,Real Betis
+315460,Isaac Cuenca,Granada
+675102,Ignacio Camacho,Malaga
+282471,Carlos Clerc,Osasuna
+359697,Oier,Osasuna
+361723,Helder Lopes,Las Palmas
+145070,Ruben Vezo,Granada
+477613,Mehdi Carcela-Gonzalez,Granada
+319631,Matias Kranevitter,Sevilla
+107541,Denys Boyko,Malaga
+639782,Oier,Osasuna
+776922,Miguel Angel de las Cuevas,Osasuna
+530537,Jose Carlos Ramirez,Real Betis
+183101,Alexis,Alaves
+364239,Pedro Leon,Eibar
+166595,Simone Zaza,Valencia
+105827,Roberto Torres,Osasuna
+33845,Miguel Angel Moya,Atletico Madrid
+178120,Diego Godin,Atletico Madrid
+97865,Mario Fernandez Cuesta,Osasuna
+708890,Daniel Parejo,Valencia
+172321,Joselu,Deportivo La Coruna
+571451,Jonathan Viera,Las Palmas
+18721,Nereo Champagne,Leganes
+288319,Adrian Ortola Vano,Alaves
+652942,Omer Atzili,Granada
+162497,Alvaro Gonzalez,Villarreal
+533775,Rafael Santos Borre,Villarreal
+198235,Daniel Ceballos,Real Betis
+610537,Ruben Castro,Real Betis
+802505,Juan Carlos,Malaga
+636570,Alvaro Odriozola,Real Sociedad
+92666,Wissam Ben Yedder,Sevilla
+640486,Aaron Caricol,Espanyol
+213873,Franck Tabanou,Granada
+688345,Jeremie Boga,Granada
+150383,Roman Zozulya,Real Betis
+611222,Josep Sene,Celta Vigo
+293074,Luis Martins,Granada
+150754,Jaime,Osasuna
+319827,Kevin Rodrigues,Real Sociedad
+30459,Roberto Rosales,Malaga,Espanyol
+797758,Gaston Silva,Granada
+50345,Adrian Ramos,Granada
+240047,Alin Tosca,Real Betis
+671595,Pione Sisto,Celta Vigo
+359195,Nenad Krsticic,Alaves
+613792,Mikel Vesga,Sporting Gijon
+198499,Ruben Sobrino,Alaves
+488412,Gabriel Mercado,Sevilla
+27659,Salvatore Sirigu,Osasuna,Sevilla
+161420,Kenan Kodro,Osasuna
+183198,Diego Rico,Leganes
+411616,Erik Moran,Leganes
+41168,Guerrero,Leganes,Granada
+97810,Juan Rafael Fuentes,Osasuna
+150297,Moi Gomez,Sporting Gijon
+359190,Pablo Fornals,Malaga
+282461,Enric Saborit,Athletic Bilbao
+231811,Jaime,Osasuna
+274528,Nenad Krsticic,Alaves
+108075,Juan Rodriguez,Sporting Gijon
+747080,Elderson,Sporting Gijon
+802987,Pablo Piatti,Espanyol
+590474,Jaime,Osasuna
+467968,Matias Kranevitter,Sevilla
+640683,Juan Rafael Fuentes,Osasuna
+362674,Theo Bongonda,Celta Vigo
+244963,Kiko,Alaves
+678192,Esteban Granero,Real Sociedad
+658786,Andreas Pereira,Granada
+698653,Xabier Prieto,Real Sociedad
+212512,Jasper Cillessen,Barcelona
+688278,Pervis Estupinan,Granada
+674518,Antonio Latorre,Valencia
+29590,Sergio Ramos,Real Madrid
+840968,Juan Rafael Fuentes,Osasuna
+821311,Jese Rodriguez,Las Palmas
+229844,Edu Exposito,Deportivo La Coruna
+837089,Ola John,Deportivo La Coruna
+540113,Jordi Alba,Barcelona
+786630,Ivan Villar,Celta Vigo
+581919,David Soria,Sevilla
+715304,Juanan Entrena,Granada
+245599,Davy Roef,Deportivo La Coruna
+40675,Darwin Machis,Leganes
+292771,Mamadou Kone,Leganes
+25772,Gonzalo Castro,Malaga
+517797,Nano,Eibar
+244566,Guilherme,Deportivo La Coruna
+516854,Carlos Fernandez,Sevilla

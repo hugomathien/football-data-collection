@@ -23,6 +23,7 @@ import sys
 
 
 playersListDirectory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\'
+playersListDirectory = os.getcwdu() + '..\\..\\DATA\\players_list\\'
 #Matches to work with
 matchDirectory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\footballData\\matches\\'
 #Player files to work with

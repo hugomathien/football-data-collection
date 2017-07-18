@@ -28,8 +28,8 @@ class PlayerSpider(scrapy.Spider):
     birthYearCheck = False
     countryCheck = False
     parseLastNameOnly = False
-    playerFilePath =  os.getcwdu() + '..\\..\\DATA\\players_list\\1_players_list_all.txt'
-    playerErrorFile = os.getcwdu() + '..\\..\\DATA\\players_list\\fail.txt'
+    playerFilePath =  os.getcwd() + '..\\..\\DATA\\players_list\\1_players_list_all.txt'
+    playerErrorFile = os.getcwd() + '..\\..\\DATA\\players_list\\fail.txt'
     baseUrlSoFifa = 'http://sofifa.com/players?keyword='
     baseUrlLiveScore = 'http://football-data.mx-api.enetscores.com/page/xhr/player/'
     fifaLatestRelease=16
@@ -74,7 +74,10 @@ class PlayerSpider(scrapy.Spider):
             playerIndex = self.firstPlayerIndex-1
             lines=playerFile.readlines()
             while playerIndex <= (self.lastPlayerIndex-1):
-                line = lines[playerIndex]
+                if len(lines) > 0:
+                    line = lines[playerIndex]
+                else:
+                    line = ""
                 line = line.rstrip()
                 comma = line.find(',')
                 matchId = line[:comma]
@@ -103,18 +106,19 @@ class PlayerSpider(scrapy.Spider):
                     playerName = line
                     url = self.baseUrlLiveScore + matchId
                     playerIndex += 1
-                    yield scrapy.Request(url, 
-                                         callback=self.parsePlayerBirthdayFromLivescore,
-                                         meta={'playerName':playerName,'matchId':matchId})
+                    yield scrapy.Request(url,
+                                      callback=self.parsePlayerBirthdayFromLivescore,
+                                      meta={'playerName':playerName,'matchId':matchId})
                 
     #Parse the player's birthday from the same website where we got the match squad ('football livescore')
     def parsePlayerBirthdayFromLivescore(self,response):
+        print ("Enter player birthday")
         playerName = response.meta['playerName']
         matchId = response.meta['matchId']
         try:
             birthday = response.xpath('//span[@class="mx-break-small"]/text()').re_first("\((.+)\)")
-            dataList = response.xpath('//span[@class="mx-break-small"]/text()').extract()
-            country = dataList[3]
+            dataList = response.xpath('//span[@class="mx-break-micro"]/text()').extract()
+            country = re.sub(r"\W", "",dataList[2])
             if birthday is not None:
                 delimit1 = birthday.find('/') + 1
                 delimit2 = birthday.find('-') + 1
@@ -443,7 +447,7 @@ class PlayerSpider(scrapy.Spider):
             yield player
             
             print ('Exported ' + name + ',' + matchId + ',' + fifaId)
-            filename = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\2_export_list.txt'
+            filename = os.getcwd() + '..\\..\\DATA\\players_list\\2_export_list.txt'
             file = open(filename, 'a')
             file.write(name + ',' + matchId + ',' + fifaId + '\n')
         except:

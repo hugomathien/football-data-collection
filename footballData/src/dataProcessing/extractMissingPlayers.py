@@ -6,9 +6,9 @@ Created on Jul 2, 2016
 import os
 import re 
 
-playersFileDirectory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players\\'
-allPlayersFile = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\1_players_list_all.txt'
-output = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\players_list\\6_players_list_all.txt'
+playersFileDirectory = os.getcwdu() + '..\\..\\DATA\\players_list\\'
+allPlayersFile = os.getcwdu() + '..\\..\\DATA\\players_list\\1_players_list_all.txt'
+output = os.getcwdu() + '..\\..\\DATA\\players_list\\1_players_list_all.txt'
 count = 0
 allPayersFile = set()
 allPlayers = set()
