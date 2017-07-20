@@ -274,10 +274,10 @@ class PlayerSpider(scrapy.Spider):
         birthMonth = int(response.meta['birthMonth'])
         birthYear = int(response.meta['birthYear'])
 
-        countrySoFifa = response.xpath('//div[@class="content"]//div[@class="meta"]//a/text()').extract_first()
+        countrySoFifa = response.xpath('//div[@class="info"]//div[@class="meta"]//a//span/@title').extract_first()
         
         #Sofifa birthday
-        birthdaySoFifa = response.xpath('//div[@class="tab-content"]//div[@class="description"]/p/text()').re_first('\((.+)\)') #Sep 9, 1991
+        birthdaySoFifa = response.xpath('//div[@class="info"]//div[@class="meta"]//span').re_first('\((.+)\)') #Sep 9, 1991
         if birthdaySoFifa is None:
             print ('Cannot find birthday for sofifa id ' +str(fifaId))
             soFifaBirthMonth = birthMonth
@@ -445,7 +445,7 @@ class PlayerSpider(scrapy.Spider):
             # Dump stats
             player['stats'] = stats
             yield player
-            
+
             print ('Exported ' + name + ',' + matchId + ',' + fifaId)
             filename = os.getcwd() + '..\\..\\DATA\\players_list\\2_export_list.txt'
             file = open(filename, 'a')

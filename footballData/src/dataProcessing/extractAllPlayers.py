@@ -12,7 +12,6 @@ playersListDirectory = os.getcwd() + '..\\..\\..\\DATA\\players_list\\'
 count = 0
 playersDict = collections.OrderedDict()
 print "Player extract started..."
-os.walk(matchDirectory)
 for (dirname, dirs, files) in os.walk(matchDirectory):
     for filename in files:
         if filename.endswith('.xml'):
