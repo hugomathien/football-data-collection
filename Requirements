@@ -1,0 +1,7 @@
+python 3.6
+http://landinghub.visualstudio.com/visual-cpp-build-tools http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe.
+https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/ as fix
+pip install scrapy
+pip install requests
+pip install --upgrade google-api-python-client
+pip install pypiwin32
