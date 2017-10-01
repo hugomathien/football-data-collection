@@ -13,7 +13,7 @@ class MatchSpider(scrapy.Spider):
     countries = ['Spain']
     #countries = ['Germany']
     #seasons = ['2009/2010','2008/2009','2012/2013','2011/2012','2010/2011']
-    seasons = ['2017/2018']
+    seasons = ['2016/2017']
     stages = []
     matches = []
     

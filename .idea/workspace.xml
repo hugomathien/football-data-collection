@@ -12,69 +12,87 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FootballDataCollection$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1498685997088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/footballData" />
     <SUITE FILE_PATH="coverage/FootballDataCollection$matchcrawler.coverage" NAME="matchcrawler Coverage Results" MODIFIED="1498685596871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/footballData/spiders" />
-    <SUITE FILE_PATH="coverage/FootballDataCollection$buildLearningFile.coverage" NAME="buildLearningFile Coverage Results" MODIFIED="1498685487085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/src/dataProcessing" />
-    <SUITE FILE_PATH="coverage/FootballDataCollection$main.coverage" NAME="main Coverage Results" MODIFIED="1498743354031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/footballData" />
-    <SUITE FILE_PATH="coverage/FootballDataCollection$buildMatchSqlDb.coverage" NAME="buildMatchSqlDb Coverage Results" MODIFIED="1498685567215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/src/dataProcessing" />
+    <SUITE FILE_PATH="coverage/FootballDataCollectionFork2$main.coverage" NAME="main Coverage Results" MODIFIED="1506850103598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/footballData" />
     <SUITE FILE_PATH="coverage/FootballDataCollection$playercrawler.coverage" NAME="playercrawler Coverage Results" MODIFIED="1498743333412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/footballData/spiders" />
+    <SUITE FILE_PATH="coverage/FootballDataCollection$buildLearningFile.coverage" NAME="buildLearningFile Coverage Results" MODIFIED="1498685487085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/src/dataProcessing" />
+    <SUITE FILE_PATH="coverage/FootballDataCollection$buildMatchSqlDb.coverage" NAME="buildMatchSqlDb Coverage Results" MODIFIED="1498685567215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/src/dataProcessing" />
+    <SUITE FILE_PATH="coverage/FootballDataCollection$main.coverage" NAME="main Coverage Results" MODIFIED="1498743354031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/footballData" />
+    <SUITE FILE_PATH="coverage/FootballDataCollection$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1498685997088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballData/footballData" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="FootballDataCollection" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="matchcrawler.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="matchcrawler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/footballData/footballData/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+            <state relative-caret-position="330">
+              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="task.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/twisted/internet/task.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="94" lean-forward="false" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
+            <state relative-caret-position="445">
+              <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="org.eclipse.core.resources.prefs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballData/.settings/org.eclipse.core.resources.prefs">
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/twisted/internet/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="172">
+              <caret line="864" column="0" lean-forward="false" selection-start-line="864" selection-start-column="0" selection-end-line="864" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballData/footballData/items.py">
+      <file leaf-file-name="crawer start.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footballData/footballData/crawer start.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footballData/footballData/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defer.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/utils/defer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2058">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.project">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,12 +101,26 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footballData/footballData/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="924">
+              <caret line="48" column="39" lean-forward="false" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
               <folding>
-                <marker date="1498742878562" expanded="true" signature="340:414" ph="..." />
-                <marker date="1498742878562" expanded="true" signature="3575:3805" ph="..." />
-                <marker date="1498742878562" expanded="true" signature="3694:3805" ph="..." />
+                <element signature="e#193#204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buildPlayerSqlDb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footballData/src/dataProcessing/buildPlayerSqlDb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1506461235698" expanded="true" signature="3905:4048" ph="INSERT OR IG... Player" />
+                <marker date="1506461235698" expanded="true" signature="4261:4306" ph="SELECT id FR... Player" />
+                <marker date="1506461235698" expanded="true" signature="5451:5562" ph="INSERT OR IG... Player_Stats" />
+                <marker date="1506461235698" expanded="true" signature="5653:5722" ph="SELECT id FR... Player_Stats" />
               </folding>
             </state>
           </provider>
@@ -99,36 +131,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/spiders/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,9 +160,9 @@
       <list>
         <option value="$PROJECT_DIR$/footballData/src/dataProcessing/buildLearningFile.py" />
         <option value="$PROJECT_DIR$/footballData/src/dataProcessing/buildMatchSqlDb.py" />
-        <option value="$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py" />
         <option value="$PROJECT_DIR$/footballData/footballData/main.py" />
         <option value="$PROJECT_DIR$/footballData/footballData/spiders/playercrawler.py" />
+        <option value="$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py" />
       </list>
     </option>
   </component>
@@ -170,11 +172,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -191,148 +193,103 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataProcessing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spiders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DATA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footballData" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FootballDataCollection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="matches" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="matches" type="462c0819:PsiDirectoryNode" />
+              <item name="Germany" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="matches" type="462c0819:PsiDirectoryNode" />
+              <item name="Germany" type="462c0819:PsiDirectoryNode" />
+              <item name="Germany DFB-Pokal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="matches" type="462c0819:PsiDirectoryNode" />
+              <item name="Germany" type="462c0819:PsiDirectoryNode" />
+              <item name="Germany DFB-Pokal" type="462c0819:PsiDirectoryNode" />
+              <item name="2016" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="matches" type="462c0819:PsiDirectoryNode" />
+              <item name="Germany" type="462c0819:PsiDirectoryNode" />
+              <item name="Germany DFB-Pokal" type="462c0819:PsiDirectoryNode" />
+              <item name="2016" type="462c0819:PsiDirectoryNode" />
+              <item name="2017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="matches" type="462c0819:PsiDirectoryNode" />
+              <item name="Spain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballDataCollectionFork2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballDataCollectionFork2" type="462c0819:PsiDirectoryNode" />
+              <item name="footballData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProcessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,100 +310,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration default="false" name="matchcrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballData/footballData/spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FootballDataCollection" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="buildMatchSqlDb" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballData/src/dataProcessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FootballDataCollection" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballData/src/dataProcessing/buildMatchSqlDb.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="pipelines" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballData/footballData" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FootballDataCollection" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballData/footballData/pipelines.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballData/footballData" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FootballDataCollection" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballData/footballData/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="playercrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballData/footballData/spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FootballDataCollection" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballData/footballData/spiders/playercrawler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -544,15 +414,6 @@
       <module name="FootballDataCollection" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -630,22 +491,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.matchcrawler" />
-      <item index="1" class="java.lang.String" itemvalue="Python.buildMatchSqlDb" />
-      <item index="2" class="java.lang.String" itemvalue="Python.pipelines" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.playercrawler" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.playercrawler" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pipelines" />
-        <item index="3" class="java.lang.String" itemvalue="Python.matchcrawler" />
-        <item index="4" class="java.lang.String" itemvalue="Python.buildMatchSqlDb" />
-      </list>
-    </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -666,6 +511,112 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration name="buildMatchSqlDb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballData/src/dataProcessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FootballDataCollection" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballData/src/dataProcessing/buildMatchSqlDb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballData/footballData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FootballDataCollection" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballData/footballData/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="matchcrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballData/footballData/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FootballDataCollection" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pipelines" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballData/footballData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FootballDataCollection" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballData/footballData/pipelines.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="playercrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballData/footballData/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FootballDataCollection" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballData/footballData/spiders/playercrawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.matchcrawler" />
+      <item index="1" class="java.lang.String" itemvalue="Python.buildMatchSqlDb" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pipelines" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.playercrawler" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.playercrawler" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pipelines" />
+        <item index="3" class="java.lang.String" itemvalue="Python.matchcrawler" />
+        <item index="4" class="java.lang.String" itemvalue="Python.buildMatchSqlDb" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -684,20 +635,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.46822917" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39845476" sideWeight="0.41145834" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5317708" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827476" sideWeight="0.821875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.49166667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39845476" sideWeight="0.5885417" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -709,7 +659,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -726,44 +676,30 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/spiders/__init__.py</url>
           <line>17</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py</url>
+          <line>174</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="94" lean-forward="false" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footballData/.settings/org.eclipse.core.resources.prefs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding />
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -771,7 +707,130 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#193#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/playercrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/crawer start.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="93" lean-forward="false" selection-start-line="0" selection-start-column="93" selection-end-line="0" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="94" lean-forward="false" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/.settings/org.eclipse.core.resources.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#193#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/playercrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="94" lean-forward="false" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/.settings/org.eclipse.core.resources.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -780,9 +839,7 @@
         <state relative-caret-position="210">
           <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <marker date="1498742878562" expanded="true" signature="340:414" ph="..." />
-            <marker date="1498742878562" expanded="true" signature="3575:3805" ph="..." />
-            <marker date="1498742878562" expanded="true" signature="3694:3805" ph="..." />
+            <element signature="e#193#204#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -799,84 +856,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/spiders/__init__.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/__init__.py" />
     <entry file="file://$PROJECT_DIR$/footballData/src/dataProcessing/buildMatchSqlDb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <marker date="1498689671066" expanded="true" signature="788:922" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="962:7978" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="1095:1146" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="2348:2397" ph="INSERT OR IG... Country" />
-            <marker date="1498689671066" expanded="true" signature="2434:2471" ph="SELECT id FR... Country" />
-            <marker date="1498689671066" expanded="true" signature="2544:2630" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="2547:2627" ph="INSERT OR IG... League" />
-            <marker date="1498689671066" expanded="true" signature="2674:2710" ph="SELECT id FR... League" />
-            <marker date="1498689671066" expanded="true" signature="2781:2893" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="2784:2890" ph="INSERT OR IG... Team" />
-            <marker date="1498689671066" expanded="true" signature="2964:3005" ph="SELECT id FR... Team" />
-            <marker date="1498689671066" expanded="true" signature="3086:3199" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="3089:3196" ph="INSERT OR IG... Team" />
-            <marker date="1498689671066" expanded="true" signature="3270:3311" ph="SELECT id FR... Team" />
-            <marker date="1498689671066" expanded="true" signature="3392:3597" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="3395:3594" ph="INSERT OR IG... Match" />
-            <marker date="1498689671066" expanded="true" signature="3601:3760" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="3781:3824" ph="SELECT id FR... Match" />
-            <marker date="1498689671066" expanded="true" signature="3908:4171" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4211:4474" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4514:4678" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4610:4654" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="4717:4893" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4821:4867" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="4932:5114" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5040:5087" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5153:5353" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5273:5323" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5392:5556" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5488:5532" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5595:5765" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5695:5740" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5804:5980" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5908:5954" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6019:6219" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6139:6189" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6294:7874" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6320:6446" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6563:6843" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6593:6638" ph="SELECT id FR... Player" />
-            <marker date="1498689671066" expanded="true" signature="6743:6811" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6914:7194" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6944:6989" ph="SELECT id FR... Player" />
-            <marker date="1498689671066" expanded="true" signature="7094:7162" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7261:7833" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="7291:7360" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7434:7503" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7577:7646" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7720:7789" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="8073:8192" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="8100:8192" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,9 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -894,60 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <marker date="1498689671066" expanded="true" signature="788:922" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="962:7978" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="1095:1146" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="2348:2397" ph="INSERT OR IG... Country" />
-            <marker date="1498689671066" expanded="true" signature="2434:2471" ph="SELECT id FR... Country" />
-            <marker date="1498689671066" expanded="true" signature="2544:2630" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="2547:2627" ph="INSERT OR IG... League" />
-            <marker date="1498689671066" expanded="true" signature="2674:2710" ph="SELECT id FR... League" />
-            <marker date="1498689671066" expanded="true" signature="2781:2893" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="2784:2890" ph="INSERT OR IG... Team" />
-            <marker date="1498689671066" expanded="true" signature="2964:3005" ph="SELECT id FR... Team" />
-            <marker date="1498689671066" expanded="true" signature="3086:3199" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="3089:3196" ph="INSERT OR IG... Team" />
-            <marker date="1498689671066" expanded="true" signature="3270:3311" ph="SELECT id FR... Team" />
-            <marker date="1498689671066" expanded="true" signature="3392:3597" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="3395:3594" ph="INSERT OR IG... Match" />
-            <marker date="1498689671066" expanded="true" signature="3601:3760" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="3781:3824" ph="SELECT id FR... Match" />
-            <marker date="1498689671066" expanded="true" signature="3908:4171" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4211:4474" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4514:4678" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4610:4654" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="4717:4893" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4821:4867" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="4932:5114" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5040:5087" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5153:5353" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5273:5323" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5392:5556" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5488:5532" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5595:5765" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5695:5740" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5804:5980" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5908:5954" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6019:6219" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6139:6189" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6294:7874" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6320:6446" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6563:6843" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6593:6638" ph="SELECT id FR... Player" />
-            <marker date="1498689671066" expanded="true" signature="6743:6811" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6914:7194" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6944:6989" ph="SELECT id FR... Player" />
-            <marker date="1498689671066" expanded="true" signature="7094:7162" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7261:7833" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="7291:7360" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7434:7503" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7577:7646" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7720:7789" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="8073:8192" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="8100:8192" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,9 +894,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -972,60 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <marker date="1498689671066" expanded="true" signature="788:922" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="962:7978" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="1095:1146" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="2348:2397" ph="INSERT OR IG... Country" />
-            <marker date="1498689671066" expanded="true" signature="2434:2471" ph="SELECT id FR... Country" />
-            <marker date="1498689671066" expanded="true" signature="2544:2630" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="2547:2627" ph="INSERT OR IG... League" />
-            <marker date="1498689671066" expanded="true" signature="2674:2710" ph="SELECT id FR... League" />
-            <marker date="1498689671066" expanded="true" signature="2781:2893" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="2784:2890" ph="INSERT OR IG... Team" />
-            <marker date="1498689671066" expanded="true" signature="2964:3005" ph="SELECT id FR... Team" />
-            <marker date="1498689671066" expanded="true" signature="3086:3199" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="3089:3196" ph="INSERT OR IG... Team" />
-            <marker date="1498689671066" expanded="true" signature="3270:3311" ph="SELECT id FR... Team" />
-            <marker date="1498689671066" expanded="true" signature="3392:3597" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="3395:3594" ph="INSERT OR IG... Match" />
-            <marker date="1498689671066" expanded="true" signature="3601:3760" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="3781:3824" ph="SELECT id FR... Match" />
-            <marker date="1498689671066" expanded="true" signature="3908:4171" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4211:4474" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4514:4678" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4610:4654" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="4717:4893" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4821:4867" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="4932:5114" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5040:5087" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5153:5353" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5273:5323" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5392:5556" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5488:5532" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5595:5765" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5695:5740" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5804:5980" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5908:5954" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6019:6219" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6139:6189" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6294:7874" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6320:6446" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6563:6843" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6593:6638" ph="SELECT id FR... Player" />
-            <marker date="1498689671066" expanded="true" signature="6743:6811" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6914:7194" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6944:6989" ph="SELECT id FR... Player" />
-            <marker date="1498689671066" expanded="true" signature="7094:7162" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7261:7833" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="7291:7360" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7434:7503" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7577:7646" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7720:7789" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="8073:8192" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="8100:8192" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,9 +909,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,9 +917,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,60 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-            <marker date="1498689671066" expanded="true" signature="788:922" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="962:7978" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="1095:1146" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="2348:2397" ph="INSERT OR IG... Country" />
-            <marker date="1498689671066" expanded="true" signature="2434:2471" ph="SELECT id FR... Country" />
-            <marker date="1498689671066" expanded="true" signature="2544:2630" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="2547:2627" ph="INSERT OR IG... League" />
-            <marker date="1498689671066" expanded="true" signature="2674:2710" ph="SELECT id FR... League" />
-            <marker date="1498689671066" expanded="true" signature="2781:2893" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="2784:2890" ph="INSERT OR IG... Team" />
-            <marker date="1498689671066" expanded="true" signature="2964:3005" ph="SELECT id FR... Team" />
-            <marker date="1498689671066" expanded="true" signature="3086:3199" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="3089:3196" ph="INSERT OR IG... Team" />
-            <marker date="1498689671066" expanded="true" signature="3270:3311" ph="SELECT id FR... Team" />
-            <marker date="1498689671066" expanded="true" signature="3392:3597" ph="'''...'''" />
-            <marker date="1498689671066" expanded="true" signature="3395:3594" ph="INSERT OR IG... Match" />
-            <marker date="1498689671066" expanded="true" signature="3601:3760" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="3781:3824" ph="SELECT id FR... Match" />
-            <marker date="1498689671066" expanded="true" signature="3908:4171" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4211:4474" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4514:4678" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4610:4654" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="4717:4893" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="4821:4867" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="4932:5114" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5040:5087" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5153:5353" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5273:5323" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5392:5556" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5488:5532" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5595:5765" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5695:5740" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="5804:5980" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="5908:5954" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6019:6219" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6139:6189" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6294:7874" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6320:6446" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6563:6843" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6593:6638" ph="SELECT id FR... Player" />
-            <marker date="1498689671066" expanded="true" signature="6743:6811" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="6914:7194" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="6944:6989" ph="SELECT id FR... Player" />
-            <marker date="1498689671066" expanded="true" signature="7094:7162" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7261:7833" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="7291:7360" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7434:7503" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7577:7646" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="7720:7789" ph="Update Match... " />
-            <marker date="1498689671066" expanded="true" signature="8073:8192" ph="..." />
-            <marker date="1498689671066" expanded="true" signature="8100:8192" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1128,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="94" lean-forward="false" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,49 +970,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballData/footballData/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <marker date="1498742878562" expanded="true" signature="340:414" ph="..." />
-            <marker date="1498742878562" expanded="true" signature="3575:3805" ph="..." />
-            <marker date="1498742878562" expanded="true" signature="3694:3805" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/spiders/__init__.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/scrapy/__init__.py" />
     <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1209,10 +987,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/crawer start.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/utils/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2058">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/footballData/footballData/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        <state relative-caret-position="42">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="48" column="39" lean-forward="false" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding>
+            <element signature="e#193#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/src/dataProcessing/buildPlayerSqlDb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1506461235698" expanded="true" signature="3905:4048" ph="INSERT OR IG... Player" />
+            <marker date="1506461235698" expanded="true" signature="4261:4306" ph="SELECT id FR... Player" />
+            <marker date="1506461235698" expanded="true" signature="5451:5562" ph="INSERT OR IG... Player_Stats" />
+            <marker date="1506461235698" expanded="true" signature="5653:5722" ph="SELECT id FR... Player_Stats" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/twisted/internet/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/twisted/internet/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="864" column="0" lean-forward="false" selection-start-line="864" selection-start-column="0" selection-end-line="864" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballData/footballData/spiders/matchcrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
           <folding />
         </state>
       </provider>
