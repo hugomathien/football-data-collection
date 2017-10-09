@@ -1,0 +1,159 @@
+<Markets>
+  <Market Name="Fulltime Result">
+    <Participant Name="Coyotes FC">
+      <Values>5/4</Values>
+    </Participant>
+    <Participant Name="Draw">
+      <Values>5/2</Values>
+    </Participant>
+    <Participant Name="Yalmakan FC">
+      <Values>7/4</Values>
+    </Participant>
+  </Market>
+  <Market Name="Double Chance">
+    <Participant Name="Coyotes FC or Draw">
+      <Values>2/5</Values>
+    </Participant>
+    <Participant Name="Yalmakan FC or Draw">
+      <Values>4/7</Values>
+    </Participant>
+    <Participant Name="Coyotes FC or Yalmakan FC">
+      <Values>2/7</Values>
+    </Participant>
+  </Market>
+  <Market Name="Half Time Result">
+    <Participant Name="Coyotes FC">
+      <Values>5/1</Values>
+    </Participant>
+    <Participant Name="Draw">
+      <Values>21/10</Values>
+    </Participant>
+    <Participant Name="Yalmakan FC">
+      <Values>8/13</Values>
+    </Participant>
+  </Market>
+  <Market Name="2nd Goal">
+    <Participant Name="Coyotes FC">
+      <Values>1/3</Values>
+    </Participant>
+    <Participant Name="No 2nd Goal">
+      <Values>6/1</Values>
+    </Participant>
+    <Participant Name="Yalmakan FC">
+      <Values>10/3</Values>
+    </Participant>
+  </Market>
+  <Market Name="Match Goals">
+    <Participant Name="Over">
+      <Values Type="3.5">6/5</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="3.5">8/13</Values>
+    </Participant>
+  </Market>
+  <Market Name="Alternative Match Goals">
+    <Participant Name="Over">
+      <Values Type="1.5">1/12</Values>
+      <Values Type="2.5">4/11</Values>
+      <Values Type="4.5">11/4</Values>
+      <Values Type="5.5">6/1</Values>
+      <Values Type="6.5">19/2</Values>
+      <Values Type="7.5">14/1</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="1.5">6/1</Values>
+      <Values Type="2.5">2/1</Values>
+      <Values Type="4.5">1/4</Values>
+      <Values Type="5.5">1/12</Values>
+      <Values Type="6.5">1/40</Values>
+      <Values Type="7.5">1/100</Values>
+    </Participant>
+  </Market>
+  <Market Name="First Half Goals">
+    <Participant Name="Over">
+      <Values Type="1.5">8/13</Values>
+      <Values Type="2.5">5/2</Values>
+      <Values Type="3.5">9/1</Values>
+      <Values Type="4.5">25/1</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="1.5">6/5</Values>
+      <Values Type="2.5">2/7</Values>
+      <Values Type="3.5">1/16</Values>
+      <Values Type="4.5">1/100</Values>
+    </Participant>
+  </Market>
+  <Market Name="Asian Handicap (0-1)" />
+  <Market Name="Goal Line (0-1)">
+    <Participant Name="Over">
+      <Values Type="2.5,3.0">1.525</Values>
+      <Values Type="3">1.675</Values>
+      <Values Type="3.0,3.5">2.000</Values>
+      <Values Type="3.5">2.150</Values>
+      <Values Type="3.5,4.0">2.550</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="2.5,3.0">2.350</Values>
+      <Values Type="3">2.050</Values>
+      <Values Type="3.0,3.5">1.800</Values>
+      <Values Type="3.5">1.625</Values>
+      <Values Type="3.5,4.0">1.450</Values>
+    </Participant>
+  </Market>
+  <Market Name="1st Half Asian Handicap (0-1)" />
+  <Market Name="1st Half Goal Line (0-1)">
+    <Participant Name="Over">
+      <Values Type="1.5">1.600</Values>
+      <Values Type="1.5,2.0">1.950</Values>
+      <Values Type="2">2.475</Values>
+      <Values Type="2.0,2.5">3.075</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="1.5">2.200</Values>
+      <Values Type="1.5,2.0">1.850</Values>
+      <Values Type="2">1.475</Values>
+      <Values Type="2.0,2.5">1.325</Values>
+    </Participant>
+  </Market>
+  <Market Name="Half Time Correct Score" />
+  <Market Name="Final Score" />
+  <Market Name="3-Way Handicap" />
+  <Market Name="1st Half - Handicap" />
+  <Market Name="Draw No Bet">
+    <Participant Name="Coyotes FC">
+      <Values>4/6</Values>
+    </Participant>
+    <Participant Name="Yalmakan FC">
+      <Values>11/10</Values>
+    </Participant>
+  </Market>
+  <Market Name="Team Clean Sheet" />
+  <Market Name="Coyotes FC Goals">
+    <Participant Name="Over">
+      <Values Type="1.5">8/11</Values>
+      <Values Type="2.5">9/4</Values>
+      <Values Type="3.5">11/2</Values>
+      <Values Type="4.5">9/1</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="1.5">1/1</Values>
+      <Values Type="2.5">1/3</Values>
+      <Values Type="3.5">1/10</Values>
+      <Values Type="4.5">1/33</Values>
+    </Participant>
+  </Market>
+  <Market Name="Yalmakan FC Goals">
+    <Participant Name="Over">
+      <Values Type="1.5">5/4</Values>
+      <Values Type="2.5">6/1</Values>
+      <Values Type="3.5">12/1</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="1.5">4/7</Values>
+      <Values Type="2.5">1/12</Values>
+      <Values Type="3.5">1/80</Values>
+    </Participant>
+  </Market>
+  <Market Name="Team to Score in Both Halves" />
+  <Market Name="Team to Score in 2nd Half" />
+</Markets>

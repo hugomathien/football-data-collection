@@ -1,0 +1,62 @@
+<Markets>
+  <Market Name="Fulltime Result">
+    <Participant Name="Tailevu Naitasiri">
+      <Values>13/8</Values>
+    </Participant>
+    <Participant Name="Draw">
+      <Values>7/4</Values>
+    </Participant>
+    <Participant Name="Navua FC">
+      <Values>15/8</Values>
+    </Participant>
+  </Market>
+  <Market Name="Double Chance">
+    <Participant Name="Tailevu Naitasiri or Draw">
+      <Values>4/11</Values>
+    </Participant>
+    <Participant Name="Navua FC or Draw">
+      <Values>4/9</Values>
+    </Participant>
+    <Participant Name="Tailevu Naitasiri or Navua FC">
+      <Values>2/5</Values>
+    </Participant>
+  </Market>
+  <Market Name="1st Goal">
+    <Participant Name="Tailevu Naitasiri">
+      <Values>6/5</Values>
+    </Participant>
+    <Participant Name="No 1st Goal">
+      <Values>10/3</Values>
+    </Participant>
+    <Participant Name="Navua FC">
+      <Values>13/10</Values>
+    </Participant>
+  </Market>
+  <Market Name="Match Goals">
+    <Participant Name="Over">
+      <Values Type="1.5">5/6</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="1.5">5/6</Values>
+    </Participant>
+  </Market>
+  <Market Name="Asian Handicap (0-0)" />
+  <Market Name="Goal Line (0-0)">
+    <Participant Name="Over">
+      <Values Type="1.5">1.900</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="1.5">1.900</Values>
+    </Participant>
+  </Market>
+  <Market Name="Final Score" />
+  <Market Name="3-Way Handicap" />
+  <Market Name="Draw No Bet">
+    <Participant Name="Tailevu Naitasiri">
+      <Values>4/5</Values>
+    </Participant>
+    <Participant Name="Navua FC">
+      <Values>10/11</Values>
+    </Participant>
+  </Market>
+</Markets>
