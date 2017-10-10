@@ -1,0 +1,360 @@
+<Markets>
+  <Market Name="Fulltime Result">
+    <Participant Name="France">
+      <Values>1/11</Values>
+    </Participant>
+    <Participant Name="Draw">
+      <Values>15/2</Values>
+    </Participant>
+    <Participant Name="Belarus">
+      <Values>28/1</Values>
+    </Participant>
+  </Market>
+  <Market Name="Double Chance">
+    <Participant Name="France or Draw">
+      <Values>1/150</Values>
+    </Participant>
+    <Participant Name="Belarus or Draw">
+      <Values>6/1</Values>
+    </Participant>
+    <Participant Name="France or Belarus">
+      <Values>1/14</Values>
+    </Participant>
+  </Market>
+  <Market Name="Half Time Result">
+    <Participant Name="France">
+      <Values>8/13</Values>
+    </Participant>
+    <Participant Name="Draw">
+      <Values>11/8</Values>
+    </Participant>
+    <Participant Name="Belarus">
+      <Values>25/1</Values>
+    </Participant>
+  </Market>
+  <Market Name="1st Goal">
+    <Participant Name="France">
+      <Values>1/11</Values>
+    </Participant>
+    <Participant Name="No 1st Goal">
+      <Values>9/1</Values>
+    </Participant>
+    <Participant Name="Belarus">
+      <Values>9/1</Values>
+    </Participant>
+  </Market>
+  <Market Name="Match Goals">
+    <Participant Name="Over">
+      <Values Type="2.5">4/6</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="2.5">11/10</Values>
+    </Participant>
+  </Market>
+  <Market Name="Alternative Match Goals">
+    <Participant Name="Over">
+      <Values Type="0.5">1/16</Values>
+      <Values Type="1.5">1/5</Values>
+      <Values Type="3.5">6/4</Values>
+      <Values Type="4.5">7/2</Values>
+      <Values Type="5.5">9/1</Values>
+      <Values Type="6.5">18/1</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="0.5">9/1</Values>
+      <Values Type="1.5">10/3</Values>
+      <Values Type="3.5">1/2</Values>
+      <Values Type="4.5">2/11</Values>
+      <Values Type="5.5">1/16</Values>
+      <Values Type="6.5">1/50</Values>
+    </Participant>
+  </Market>
+  <Market Name="First Half Goals">
+    <Participant Name="Over">
+      <Values Type="0.5">4/9</Values>
+      <Values Type="1.5">9/4</Values>
+      <Values Type="2.5">8/1</Values>
+      <Values Type="3.5">22/1</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="0.5">13/8</Values>
+      <Values Type="1.5">1/3</Values>
+      <Values Type="2.5">1/14</Values>
+      <Values Type="3.5">1/80</Values>
+    </Participant>
+  </Market>
+  <Market Name="Match Corners">
+    <Participant Name="Over">
+      <Values Type="6">2/7</Values>
+      <Values Type="7">1/2</Values>
+      <Values Type="8">5/6</Values>
+      <Values Type="9">6/4</Values>
+      <Values Type="10">12/5</Values>
+    </Participant>
+    <Participant Name="Exactly">
+      <Values Type="6">13/2</Values>
+      <Values Type="7">6/1</Values>
+      <Values Type="8">6/1</Values>
+      <Values Type="9">13/2</Values>
+      <Values Type="10">7/1</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="6">9/2</Values>
+      <Values Type="7">5/2</Values>
+      <Values Type="8">6/4</Values>
+      <Values Type="9">5/6</Values>
+      <Values Type="10">1/2</Values>
+    </Participant>
+  </Market>
+  <Market Name="1st Half Corners" />
+  <Market Name="Asian Handicap (0-0)" />
+  <Market Name="Goal Line (0-0)">
+    <Participant Name="Over">
+      <Values Type="2.0,2.5">1.525</Values>
+      <Values Type="2.5">1.700</Values>
+      <Values Type="2.5,3.0">1.925</Values>
+      <Values Type="3">2.150</Values>
+      <Values Type="3.0,3.5">2.425</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="2.0,2.5">2.425</Values>
+      <Values Type="2.5">2.100</Values>
+      <Values Type="2.5,3.0">1.925</Values>
+      <Values Type="3">1.675</Values>
+      <Values Type="3.0,3.5">1.525</Values>
+    </Participant>
+  </Market>
+  <Market Name="1st Half Asian Handicap (0-0)" />
+  <Market Name="1st Half Goal Line (0-0)">
+    <Participant Name="Over">
+      <Values Type="0.5">1.475</Values>
+      <Values Type="0.5,1.0">1.675</Values>
+      <Values Type="1">2.100</Values>
+      <Values Type="1.0,1.5">2.675</Values>
+      <Values Type="1.5">3.300</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="0.5">2.600</Values>
+      <Values Type="0.5,1.0">2.150</Values>
+      <Values Type="1">1.700</Values>
+      <Values Type="1.0,1.5">1.450</Values>
+      <Values Type="1.5">1.325</Values>
+    </Participant>
+  </Market>
+  <Market Name="Half Time Correct Score" />
+  <Market Name="Final Score" />
+  <Market Name="Asian Corners">
+    <Participant Name="Over">
+      <Values Type="8.5">1.925</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="8.5">1.875</Values>
+    </Participant>
+  </Market>
+  <Market Name="1st Half Asian Corners">
+    <Participant Name="Over">
+      <Values Type="3">1.975</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="3">1.825</Values>
+    </Participant>
+  </Market>
+  <Market Name="Corners Race">
+    <Participant Name="3">
+      <Values Type="France">1/7</Values>
+      <Values Type="Belarus">9/2</Values>
+      <Values Type="Neither">18/1</Values>
+    </Participant>
+    <Participant Name="5">
+      <Values Type="France">1/3</Values>
+      <Values Type="Belarus">11/1</Values>
+      <Values Type="Neither">13/5</Values>
+    </Participant>
+    <Participant Name="7">
+      <Values Type="France">11/10</Values>
+      <Values Type="Belarus">28/1</Values>
+      <Values Type="Neither">4/6</Values>
+    </Participant>
+    <Participant Name="9">
+      <Values Type="France">10/3</Values>
+      <Values Type="Belarus">100/1</Values>
+      <Values Type="Neither">1/5</Values>
+    </Participant>
+  </Market>
+  <Market Name="Corners">
+    <Participant Name="2nd Corner">
+      <Values Type="France">3/10</Values>
+      <Values Type="Belarus">12/5</Values>
+    </Participant>
+    <Participant Name="Last">
+      <Values Type="France">3/10</Values>
+      <Values Type="Belarus">12/5</Values>
+    </Participant>
+  </Market>
+  <Market Name="3-Way Handicap" />
+  <Market Name="1st Half - Handicap" />
+  <Market Name="Draw No Bet">
+    <Participant Name="France">
+      <Values>1/80</Values>
+    </Participant>
+    <Participant Name="Belarus">
+      <Values>22/1</Values>
+    </Participant>
+  </Market>
+  <Market Name="Team Clean Sheet" />
+  <Market Name="France Goals">
+    <Participant Name="Over">
+      <Values Type="1.5">2/7</Values>
+      <Values Type="2.5">5/6</Values>
+      <Values Type="3.5">9/4</Values>
+      <Values Type="4.5">5/1</Values>
+      <Values Type="5.5">12/1</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="1.5">5/2</Values>
+      <Values Type="2.5">5/6</Values>
+      <Values Type="3.5">1/3</Values>
+      <Values Type="4.5">1/8</Values>
+      <Values Type="5.5">1/25</Values>
+    </Participant>
+  </Market>
+  <Market Name="Belarus Goals">
+    <Participant Name="Over">
+      <Values Type="1.5">22/1</Values>
+    </Participant>
+    <Participant Name="Under">
+      <Values Type="1.5">1/80</Values>
+    </Participant>
+  </Market>
+  <Market Name="Team to Score in Both Halves" />
+  <Market Name="Team to Score in 2nd Half" />
+  <Market Name="1st Goal Method" />
+  <Market Name="Next 10 Minutes (20:00 - 29:59)">
+    <Participant Name="Goals" />
+    <Participant Name="Corners" />
+    <Participant Name="Cards" />
+  </Market>
+  <Market Name="Match Time Result">
+    <Participant Name="20:00">
+      <Values Type="France">8/1</Values>
+      <Values Type="Draw">1/14</Values>
+      <Values Type="Belarus">50/1</Values>
+    </Participant>
+    <Participant Name="30:00">
+      <Values Type="France">13/8</Values>
+      <Values Type="Draw">4/9</Values>
+      <Values Type="Belarus">25/1</Values>
+    </Participant>
+    <Participant Name="40:00">
+      <Values Type="France">4/5</Values>
+      <Values Type="Draw">10/11</Values>
+      <Values Type="Belarus">22/1</Values>
+    </Participant>
+    <Participant Name="50:00">
+      <Values Type="France">4/9</Values>
+      <Values Type="Draw">13/8</Values>
+      <Values Type="Belarus">20/1</Values>
+    </Participant>
+    <Participant Name="60:00">
+      <Values Type="France">2/7</Values>
+      <Values Type="Draw">13/5</Values>
+      <Values Type="Belarus">20/1</Values>
+    </Participant>
+    <Participant Name="70:00">
+      <Values Type="France">2/11</Values>
+      <Values Type="Draw">7/2</Values>
+      <Values Type="Belarus">20/1</Values>
+    </Participant>
+    <Participant Name="80:00">
+      <Values Type="France">1/7</Values>
+      <Values Type="Draw">9/2</Values>
+      <Values Type="Belarus">22/1</Values>
+    </Participant>
+  </Market>
+  <Market Name="Time of 1st Goal">
+    <Participant Name="20:00">
+      <Values Type="Goal Before">7/1</Values>
+      <Values Type="No Goal Before">1/12</Values>
+    </Participant>
+    <Participant Name="30:00">
+      <Values Type="Goal Before">6/4</Values>
+      <Values Type="No Goal Before">1/2</Values>
+    </Participant>
+    <Participant Name="40:00">
+      <Values Type="Goal Before">4/6</Values>
+      <Values Type="No Goal Before">11/10</Values>
+    </Participant>
+    <Participant Name="50:00">
+      <Values Type="Goal Before">1/3</Values>
+      <Values Type="No Goal Before">9/4</Values>
+    </Participant>
+    <Participant Name="60:00">
+      <Values Type="Goal Before">2/11</Values>
+      <Values Type="No Goal Before">7/2</Values>
+    </Participant>
+    <Participant Name="70:00">
+      <Values Type="Goal Before">1/8</Values>
+      <Values Type="No Goal Before">5/1</Values>
+    </Participant>
+    <Participant Name="80:00">
+      <Values Type="Goal Before">1/12</Values>
+      <Values Type="No Goal Before">7/1</Values>
+    </Participant>
+  </Market>
+  <Market Name="Time of 1st Goal - France">
+    <Participant Name="20:00">
+      <Values Type="Goal Before">8/1</Values>
+      <Values Type="No Goal Before">1/14</Values>
+    </Participant>
+    <Participant Name="30:00">
+      <Values Type="Goal Before">13/8</Values>
+      <Values Type="No Goal Before">4/9</Values>
+    </Participant>
+    <Participant Name="40:00">
+      <Values Type="Goal Before">4/5</Values>
+      <Values Type="No Goal Before">10/11</Values>
+    </Participant>
+    <Participant Name="50:00">
+      <Values Type="Goal Before">2/5</Values>
+      <Values Type="No Goal Before">7/4</Values>
+    </Participant>
+    <Participant Name="60:00">
+      <Values Type="Goal Before">2/9</Values>
+      <Values Type="No Goal Before">3/1</Values>
+    </Participant>
+    <Participant Name="70:00">
+      <Values Type="Goal Before">1/6</Values>
+      <Values Type="No Goal Before">4/1</Values>
+    </Participant>
+    <Participant Name="80:00">
+      <Values Type="Goal Before">1/9</Values>
+      <Values Type="No Goal Before">11/2</Values>
+    </Participant>
+  </Market>
+  <Market Name="Time of 1st Goal - Belarus">
+    <Participant Name="30:00">
+      <Values Type="Goal Before">18/1</Values>
+      <Values Type="No Goal Before">1/50</Values>
+    </Participant>
+    <Participant Name="40:00">
+      <Values Type="Goal Before">12/1</Values>
+      <Values Type="No Goal Before">1/25</Values>
+    </Participant>
+    <Participant Name="50:00">
+      <Values Type="Goal Before">7/1</Values>
+      <Values Type="No Goal Before">1/12</Values>
+    </Participant>
+    <Participant Name="60:00">
+      <Values Type="Goal Before">11/2</Values>
+      <Values Type="No Goal Before">1/9</Values>
+    </Participant>
+    <Participant Name="70:00">
+      <Values Type="Goal Before">9/2</Values>
+      <Values Type="No Goal Before">1/7</Values>
+    </Participant>
+    <Participant Name="80:00">
+      <Values Type="Goal Before">4/1</Values>
+      <Values Type="No Goal Before">1/6</Values>
+    </Participant>
+  </Market>
+</Markets>
