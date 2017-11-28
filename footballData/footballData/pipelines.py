@@ -32,10 +32,10 @@ class XmlExportPipeline(object):
          return pipeline
 
     def spider_opened(self, spider):
-        #file = open('%s.xml' % spider.name, 'w+b')
-        #self.files[spider] = file
-        #self.exporter = XmlItemExporter(file)
-        #self.exporter.start_exporting()
+        file = open('%s.xml' % spider.name, 'w+b')
+        self.files[spider] = file
+        self.exporter = XmlItemExporter(file)
+        self.exporter.start_exporting()
         pass
     
     def spider_closed(self, spider):
