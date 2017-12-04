@@ -22,7 +22,7 @@ ROBOTSTXT_OBEY = False
 #DOWNLOAD_DELAY = 0.5
 
 ITEM_PIPELINES = {
-    'footballData.pipelines.XmlExportPipeline': 300,
+    'footballData.pipelines.XmlExportPipeline': 1000,
 }
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
@@ -62,9 +62,10 @@ ITEM_PIPELINES = {
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
-#    'scrapy.extensions.telnet.TelnetConsole': None,
-#}
+EXTENSIONS = {
+    'scrapy_jsonrpc.webservice.WebService': 500,
+    'scrapy.extensions.telnet.TelnetConsole': None,
+}
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
