@@ -21,7 +21,7 @@ class MatchSpider(scrapy.Spider):
     def parse(self,response):
         countries_dirty = response.xpath('//li[@class="mx-dropdown-option"]/text()').extract()
         countries = list(filter(None, [x.strip() for x in countries_dirty]))
-        countries = ['Germany']
+        #countries = ['Germany']
         for country in countries:
             href = response.xpath('//li[text()[contains(.,"'+country+'")]]/@data-snippetparams').re_first('"params":"(.+)"')
             url = 'http://reuters.mx-api.enetscores.com/page/xhr/standings/' + href
