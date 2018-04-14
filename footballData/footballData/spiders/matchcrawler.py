@@ -10,22 +10,28 @@ class MatchSpider(scrapy.Spider):
         import win32file
         win32file._setmaxstdio(2048)
 
-    name = "match"
-    detailedStats = True
-    allowed_domains = ["reuters.mx-api.enetscores.com",'json.mx-api.enetscores.com']
-    start_urls = ["http://reuters.mx-api.enetscores.com/page/xhr/standings/" ]
-    stages = []
-    matches = []
-    
+    name="match"
+
+    def __init__(self):
+        self.seasons_selected = ['2017/2018', '2016/2017', '2015/2016']
+        self.countries_selected = ['Germany']
+
+        allowed_domains = ["reuters.mx-api.enetscores.com", 'json.mx-api.enetscores.com']
+        self.start_urls = ["http://reuters.mx-api.enetscores.com/page/xhr/standings/"]
+        self.stages = []
+        self.matches = []
+        self.detailed_stats = True
+
     #COUNTRY
     def parse(self,response):
         countries_dirty = response.xpath('//li[@class="mx-dropdown-option"]/text()').extract()
         countries = list(filter(None, [x.strip() for x in countries_dirty]))
-        #countries = ['Germany']
+
         for country in countries:
-            href = response.xpath('//li[text()[contains(.,"'+country+'")]]/@data-snippetparams').re_first('"params":"(.+)"')
-            url = 'http://reuters.mx-api.enetscores.com/page/xhr/standings/' + href
-            yield scrapy.Request(url, callback=self.parseLeague,meta={'country':country})
+            if country in self.countries_selected:
+                href = response.xpath('//li[text()[contains(.,"'+country+'")]]/@data-snippetparams').re_first('"params":"(.+)"')
+                url = self.start_urls[0] + href
+                yield scrapy.Request(url, callback=self.parseLeague,meta={'country':country})
 
     #LEAGUE
     def parseLeague(self,response):
@@ -41,10 +47,12 @@ class MatchSpider(scrapy.Spider):
         country = response.meta['country']
         league = response.meta['league']
         seasons = response.xpath('//div[@class="mx-dropdown-container mx-flexbox mx-float-left mx-tournament-dropdown"]/div/ul/li/text()').extract()
+
         for season in seasons:
-            href = response.xpath('//li[text()[contains(.,"'+season+'")]]/@data-snippetparams').re_first('"params":"(.+)"')
-            url = 'http://reuters.mx-api.enetscores.com/page/xhr/standings/' + href
-            yield scrapy.Request(url, callback=self.parseMatches,meta={'country':country,'league':league,'season':season})
+            if season in self.seasons_selected:
+                href = response.xpath('//li[text()[contains(.,"'+season+'")]]/@data-snippetparams').re_first('"params":"(.+)"')
+                url = 'http://reuters.mx-api.enetscores.com/page/xhr/standings/' + href
+                yield scrapy.Request(url, callback=self.parseMatches,meta={'country':country,'league':league,'season':season})
     
     #OPEN SEASON
     def parseMatches(self,response):
@@ -66,7 +74,7 @@ class MatchSpider(scrapy.Spider):
         url = 'http://reuters.mx-api.enetscores.com/page/xhr/stage_results/' + href
         totalPages = response.xpath('//span[contains(@class,"mx-pager-next")]/@data-params').re_first('total_pages": "([0-9]+)"')
         
-        if not self.stages:
+        if not self.stages and totalPages is not None:
             iterateStages = range(1,int(totalPages)+1)
         else:
             iterateStages = self.stages
@@ -159,7 +167,7 @@ class MatchSpider(scrapy.Spider):
         match['awayPlayersY'] = playersY[11:]
         
         matchId = match['matchId']
-        if self.detailedStats:
+        if self.detailed_stats:
             url = 'http://json.mx-api.enetscores.com/live_data/actionzones/' + matchId + '/0?_=1'
             yield scrapy.Request(url, callback=self.parseMatchEvents,meta={'match':match})
         else:
