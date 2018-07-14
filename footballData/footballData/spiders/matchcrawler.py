@@ -8,13 +8,13 @@ class MatchSpider(scrapy.Spider):
     #increase maximum open files
     if platform.system() == 'Windows':
         import win32file
-        win32file._setmaxstdio(2048)
+        win32file._setmaxstdio(4000)
 
     name="match"
 
     def __init__(self):
-        self.seasons_selected = ['2017/2018', '2016/2017', '2015/2016']
-        self.countries_selected = ['Germany']
+        self.seasons_selected = ['2017/2018']
+        self.countries_selected = ['Germany','England','Spain','Italy','France']
 
         allowed_domains = ["reuters.mx-api.enetscores.com", 'json.mx-api.enetscores.com']
         self.start_urls = ["http://reuters.mx-api.enetscores.com/page/xhr/standings/"]
@@ -90,7 +90,7 @@ class MatchSpider(scrapy.Spider):
         season = response.meta['season']
         stage = response.meta['stage']
         matchesDataEventList = response.xpath('//a[contains(@class, "mx-link")]/@data-event').extract()
-        dateList = response.xpath('//span[@class="mx-time-startdatetime"]/text()').extract()
+        dateList = response.xpath('//span[@class="mx-time-startdate mx-break-small"]/text()').extract()
      
         matchList = list()
         if len(self.matches) >= 1:

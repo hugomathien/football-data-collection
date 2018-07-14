@@ -14,9 +14,9 @@ import string
 from dateutil.parser import parse
 
 #Player files to work with
-matchFileDirectory = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA'
-db = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\database.sqlite'
-errorFile = 'D:\\OneDrive\\Projects\\BettingSerivce\\FootballDataCollection\\footballData\\DATA\\match_error.txt'
+matchFileDirectory = 'G:\\GitProjects\\FootballDataCollectionFork2\\footballData\\footballData\\matches'
+db = matchFileDirectory + '\\database.sqlite'
+errorFile = matchFileDirectory + '\\match_error.txt'
 startIntFifa = 154994
 startDateFifa = datetime(2007,2,22)
 conn = sqlite3.connect(db)
@@ -38,30 +38,37 @@ def saveMatch(dirname,filename,count):
         print(xmlstr)
     try:
         parsedXML = ET.fromstring(xmlstr)
+
+        lstHomePlayerId = parsedXML.findall('homePlayersId/value')
+        lstAwayPlayerId = parsedXML.findall('awayPlayersId/value')
+        country = parsedXML.find('country').text
+        season = parsedXML.find('season').text
+        league = parsedXML.find('league').text
+        stage = parsedXML.find('stage').text
+        matchApiId = parsedXML.find('matchId').text
+        homeTeamApiId = int(parsedXML.find('homeTeamId/value').text)
+        awayTeamApiId = int(parsedXML.find('awayTeamId/value').text)
+        homeTeamFullName = parsedXML.find('homeTeamFullName').text
+        awayTeamFullName = parsedXML.find('awayTeamFullName').text
+        homeTeamAcronym = parsedXML.find('homeTeamAcronym').text
+        awayTeamAcronym = parsedXML.find('awayTeamAcronym').text
+        try:
+            homeTeamGoal = int(parsedXML.find('homeTeamGoal/value').text)
+            awayTeamGoal = int(parsedXML.find('awayTeamGoal/value').text)
+            print("home goal  presetn")
+        except:
+            homeTeamGoal = -1
+            awayTeamGoal = -1
+
+
+        matchDateStr = parsedXML.find('date').text
+        matchYear = matchDateStr[:4]
+        matchMonth = matchDateStr[5:7]
+        matchDay = matchDateStr[8:10]
+        matchDate = datetime(int(matchYear),int(matchMonth),int(matchDay))
     except:
-        return printError('None','None',thefile,count)
-    
-    lstHomePlayerId = parsedXML.findall('homePlayersId/value') 
-    lstAwayPlayerId = parsedXML.findall('awayPlayersId/value') 
-    country = parsedXML.find('country').text
-    season = parsedXML.find('season').text
-    league = parsedXML.find('league').text
-    stage = parsedXML.find('stage').text
-    matchApiId = parsedXML.find('matchId').text
-    homeTeamApiId = int(parsedXML.find('homeTeamId').text)
-    awayTeamApiId = int(parsedXML.find('awayTeamId').text)
-    homeTeamFullName = parsedXML.find('homeTeamFullName').text
-    awayTeamFullName = parsedXML.find('awayTeamFullName').text
-    homeTeamAcronym = parsedXML.find('homeTeamAcronym').text
-    awayTeamAcronym = parsedXML.find('awayTeamAcronym').text
-    homeTeamGoal = int(parsedXML.find('homeTeamGoal').text)
-    awayTeamGoal = int(parsedXML.find('awayTeamGoal').text)
-    matchDateStr = parsedXML.find('date').text
-    matchYear = matchDateStr[:4]
-    matchMonth = matchDateStr[5:7]
-    matchDay = matchDateStr[8:10]
-    matchDate = datetime(int(matchYear),int(matchMonth),int(matchDay))
-    
+        return printError('None', 'None', thefile, count)
+
     cur.execute('''INSERT OR IGNORE INTO Country (name) VALUES ( ? )''', ( country, ) )
     cur.execute('SELECT id FROM Country WHERE name = ? ', (country, ))
     country_id = cur.fetchone()[0]
@@ -80,11 +87,12 @@ def saveMatch(dirname,filename,count):
                 VALUES ( ?, ?, ? )''', (awayTeamApiId, awayTeamFullName,awayTeamAcronym,))
     cur.execute('SELECT id FROM Team WHERE team_api_id = ? ', (awayTeamApiId, ))
     away_team_id = cur.fetchone()[0]
-    
+
+
     cur.execute('''INSERT OR IGNORE INTO Match (country_id,league_id,season,stage,match_api_id,
     home_team_goal,away_team_goal,home_team_id,away_team_id,date) 
-                VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )''', ( country_id, league_id,season,stage,matchApiId,
-                                                  homeTeamGoal,awayTeamGoal,home_team_id,away_team_id,matchDate,) )
+                VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''', ( country_id, league_id,season,stage,matchApiId,
+                                                  home_team_id,away_team_id,matchDate,homeTeamGoal,awayTeamGoal) )
     cur.execute('SELECT id FROM Match WHERE match_api_id = ? ', (matchApiId, ))
     match_id = cur.fetchone()[0]
     conn.commit()
