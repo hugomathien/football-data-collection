@@ -19,7 +19,7 @@ NEWSPIDER_MODULE = 'footballData.spiders'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
-#DOWNLOAD_DELAY = 0.5
+DOWNLOAD_DELAY = 0.5
 
 #ITEM_PIPELINES = {
 #    'footballData.pipelines.JsonWriterPipeline': 300,

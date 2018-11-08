@@ -66,42 +66,41 @@ class XmlExportPipeline(object):
                 except OSError as exc: # Guard against race condition
                     if exc.errno != errno.EEXIST:
                         raise
-            file = open(filename, 'w+b')
-            self.files[item['matchId']] = file
-            self.exporter = XmlItemExporter(file)
-            self.exporter.fields_to_export = [
-                'country',
-                'league',
-                'season',
-                'stage',
-                'matchId', 
-                'date',
-                'homeTeamId',
-                'awayTeamId',
-                'homeTeamFullName', 
-                'awayTeamFullName',
-                'homeTeamAcronym',
-                'awayTeamAcronym',
-                'homeTeamGoal',
-                'awayTeamGoal',
-                'homePlayers',
-                'awayPlayers',
-                'homePlayersId',
-                'awayPlayersId',
-                'homePlayersX',
-                'awayPlayersX',
-                'homePlayersY',
-                'awayPlayersY',
-                'goal',
-                'shoton',
-                'shotoff',
-                'foulcommit',
-                'card',
-                'cross',
-                'corner',
-                'possession']
-            
-            self.exporter.export_item(item)
+            with open(filename, 'w+b') as f:
+                self.files[item['matchId']] = f
+                self.exporter = XmlItemExporter(f)
+                self.exporter.fields_to_export = [
+                    'country',
+                    'league',
+                    'season',
+                    'stage',
+                    'matchId', 
+                    'date',
+                    'homeTeamId',
+                    'awayTeamId',
+                    'homeTeamFullName', 
+                    'awayTeamFullName',
+                    'homeTeamAcronym',
+                    'awayTeamAcronym',
+                    'homeTeamGoal',
+                    'awayTeamGoal',
+                    'homePlayers',
+                    'awayPlayers',
+                    'homePlayersId',
+                    'awayPlayersId',
+                    'homePlayersX',
+                    'awayPlayersX',
+                    'homePlayersY',
+                    'awayPlayersY',
+                    'goal',
+                    'shoton',
+                    'shotoff',
+                    'foulcommit',
+                    'card',
+                    'cross',
+                    'corner',
+                    'possession']
+                self.exporter.export_item(item)
             return item
         elif spider.name is 'player':
             filename = 'players/' + item['name']+'_'+item['matchId']+'_'+item['fifaId']+'.xml'
@@ -111,16 +110,16 @@ class XmlExportPipeline(object):
                 except OSError as exc: # Guard against race condition
                     if exc.errno != errno.EEXIST:
                         raise
-            file = open(filename, 'w+b')
-            self.files[item['name']] = file
-            self.exporter = XmlItemExporter(file)
-            self.exporter.fields_to_export = [
-                'name',
-                'matchId',
-                'fifaId',
-                'birthday',
-                'height',
-                'weight',
-                'stats']
-            self.exporter.export_item(item)
+            with open(filename, 'w+b') as f:
+                self.files[item['name']] = f
+                self.exporter = XmlItemExporter(f)
+                self.exporter.fields_to_export = [
+                    'name',
+                    'matchId',
+                    'fifaId',
+                    'birthday',
+                    'height',
+                    'weight',
+                    'stats']
+                self.exporter.export_item(item)
             return item

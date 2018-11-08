@@ -1,4 +1,5 @@
 footballData/footballData/matches/
+footballData/footballData/spiders/matches/
 footballData/footballData/spiders/__pycache__/playercrawler.cpython-36.pyc
 footballData/footballData/spiders/__pycache__/matchcrawler.cpython-36.pyc
 footballData/footballData/spiders/__pycache__/__init__.cpython-36.pyc
@@ -6,3 +7,5 @@ footballData/footballData/__pycache__/settings.cpython-36.pyc
 footballData/footballData/__pycache__/pipelines.cpython-36.pyc
 footballData/footballData/__pycache__/items.cpython-36.pyc
 footballData/footballData/__pycache__/__init__.cpython-36.pyc
+*.pyc
+*.csv
